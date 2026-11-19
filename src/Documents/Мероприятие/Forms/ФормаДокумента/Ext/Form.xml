@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
@@ -131,6 +131,76 @@
 			<ContextMenu name="ОбъектСтатусКонтекстноеМеню" id="30"/>
 			<ExtendedTooltip name="ОбъектСтатусРасширеннаяПодсказка" id="31"/>
 		</InputField>
+		<Table name="Оборудование" id="200">
+			<Representation>List</Representation>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оборудование мероприятия</v8:content>
+				</v8:item>
+			</Title>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<DataPath>Объект.Оборудование</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ОборудованиеКонтекстноеМеню" id="201"/>
+			<AutoCommandBar name="ПанельТаблицы" id="202"/>
+			<ExtendedTooltip name="ОборудованиеРасширеннаяПодсказка" id="203"/>
+			<SearchStringAddition name="ОборудованиеСтрокаПоиска" id="204">
+				<AdditionSource>
+					<Item>Оборудование</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ОборудованиеСтрокаПоискаКонтекстноеМеню" id="205"/>
+				<ExtendedTooltip name="ОборудованиеСтрокаПоискаРасширеннаяПодсказка" id="206"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ОборудованиеСостояниеПросмотра" id="207">
+				<AdditionSource>
+					<Item>Оборудование</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ОборудованиеСостояниеПросмотраКонтекстноеМеню" id="208"/>
+				<ExtendedTooltip name="ОборудованиеСостояниеПросмотраРасширеннаяПодсказка" id="209"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ОборудованиеУправлениеПоиском" id="210">
+				<AdditionSource>
+					<Item>Оборудование</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ОборудованиеУправлениеПоискомКонтекстноеМеню" id="211"/>
+				<ExtendedTooltip name="ОборудованиеУправлениеПоискомРасширеннаяПодсказка" id="212"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ОборудованиеПозиция" id="213">
+					<DataPath>Объект.Оборудование.Оборудование</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Оборудование</v8:content>
+						</v8:item>
+					</Title>
+					<ChoiceButton>true</ChoiceButton>
+					<TextEdit>false</TextEdit>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОбъектОборудованиеПозицияКонтекстноеМеню" id="214"/>
+					<ExtendedTooltip name="ОбъектОборудованиеПозицияРасширеннаяПодсказка" id="215"/>
+					<Events>
+						<Event name="StartChoice">ОборудованиеНачалоВыбора</Event>
+					</Events>
+				</InputField>
+				<InputField name="ОборудованиеКоличество" id="216">
+					<DataPath>Объект.Оборудование.Количество</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОбъектОборудованиеКоличествоКонтекстноеМеню" id="217"/>
+					<ExtendedTooltip name="ОбъектОборудованиеКоличествоРасширеннаяПодсказка" id="218"/>
+				</InputField>
+			</ChildItems>
+		</Table>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

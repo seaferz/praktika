@@ -1,103 +1,109 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
-		<Metadata name="Catalog.ВидыСпорта" id="d66e171f-8dfe-559f-b17b-740fde714d43" configVersion="bcb6189a01c9524a84571a4fc22aa9ad00000000">
+		<Metadata name="Catalog.ВидыСпорта" id="d66e171f-8dfe-559f-b17b-740fde714d43" configVersion="ce08b950860cc842b4fb14161baa68af00000000">
 			<Metadata name="Catalog.ВидыСпорта.Attribute.Показатель" id="519dc5a5-624a-5ac3-8227-ff4a0e820eb4"/>
 			<Metadata name="Catalog.ВидыСпорта.Attribute.Единица" id="da55bc7a-4ee4-5f1e-bbcf-2ea14a7874ea"/>
 		</Metadata>
-		<Metadata name="Catalog.ВидыСпорта.Form.ФормаСписка" id="b30167fa-abd1-5f26-be89-949530d66ea7" configVersion="a813dabcec29a44faed5e2ab933a3b1400000000"/>
-		<Metadata name="Catalog.ВидыСпорта.Form.ФормаСписка.Form" id="b30167fa-abd1-5f26-be89-949530d66ea7.0" configVersion="2704343e0a84144480e5345967deb2a200000000"/>
-		<Metadata name="Catalog.ВидыСпорта.Form.ФормаЭлемента" id="05c554c2-5579-5458-8d72-4392d91ec127" configVersion="c863c93500c2e545a4a803108bc0733900000000"/>
-		<Metadata name="Catalog.ВидыСпорта.Form.ФормаЭлемента.Form" id="05c554c2-5579-5458-8d72-4392d91ec127.0" configVersion="d2962709b0876a40b447a95c1dc1e01400000000"/>
-		<Metadata name="Catalog.Команды" id="8dc5880a-7705-5cb5-a59f-804b07583346" configVersion="9ee99132a320174f8b39c55193f71ad700000000">
+		<Metadata name="Catalog.ВидыСпорта.Form.ФормаСписка" id="b30167fa-abd1-5f26-be89-949530d66ea7" configVersion="37b2f54a9f7b0e409f3b641fc786da7a00000000"/>
+		<Metadata name="Catalog.ВидыСпорта.Form.ФормаСписка.Form" id="b30167fa-abd1-5f26-be89-949530d66ea7.0" configVersion="3011d7507d1476458c8aa7d6faf7989200000000"/>
+		<Metadata name="Catalog.ВидыСпорта.Form.ФормаЭлемента" id="05c554c2-5579-5458-8d72-4392d91ec127" configVersion="fcd2de791f4f5a4ba4522b868f17637300000000"/>
+		<Metadata name="Catalog.ВидыСпорта.Form.ФормаЭлемента.Form" id="05c554c2-5579-5458-8d72-4392d91ec127.0" configVersion="42fa917590bd46439cc4051f2947db8f00000000"/>
+		<Metadata name="Catalog.Команды" id="8dc5880a-7705-5cb5-a59f-804b07583346" configVersion="e4b20ba90a61bc47835e5cf0fefe71c100000000">
 			<Metadata name="Catalog.Команды.TabularSection.Состав.Attribute.Спортсмен" id="5aad385f-7104-55a9-b3bf-fca92a5dbc4a"/>
 			<Metadata name="Catalog.Команды.TabularSection.Состав" id="6119094c-1360-579c-a3b3-eed68b8d92d4"/>
 			<Metadata name="Catalog.Команды.Attribute.ВидСпорта" id="9433851c-bddb-5c58-b65f-afa60a924ab2"/>
 			<Metadata name="Catalog.Команды.Attribute.Тренер" id="cd577e36-f620-5ff5-bfe3-0463b22cf85f"/>
 		</Metadata>
-		<Metadata name="Catalog.Команды.Form.ФормаСписка" id="063e933c-ce05-57db-bcfe-dc0e48d97f57" configVersion="fffe6431e82f994287fb568cfda2b95f00000000"/>
-		<Metadata name="Catalog.Команды.Form.ФормаСписка.Form" id="063e933c-ce05-57db-bcfe-dc0e48d97f57.0" configVersion="756fb159dc5b3346862fd2c8a98bf66400000000"/>
-		<Metadata name="Catalog.Команды.Form.ФормаЭлемента" id="b95ad653-7235-51e6-a50c-d28684101337" configVersion="fbb640be1190d54089716df3ea048ab500000000"/>
-		<Metadata name="Catalog.Команды.Form.ФормаЭлемента.Form" id="b95ad653-7235-51e6-a50c-d28684101337.0" configVersion="eb26e379bb0e4c4882808c53e9a6095700000000"/>
-		<Metadata name="Catalog.Оборудование" id="efb2a35b-5af1-5ac1-9146-1f99af0cbbef" configVersion="0543053546f0964795265c4546c856f200000000">
+		<Metadata name="Catalog.Команды.Form.ФормаСписка" id="063e933c-ce05-57db-bcfe-dc0e48d97f57" configVersion="456271bbbaa1b24c8c0175774ef1e3e000000000"/>
+		<Metadata name="Catalog.Команды.Form.ФормаСписка.Form" id="063e933c-ce05-57db-bcfe-dc0e48d97f57.0" configVersion="a7baa0ace8f1854392071af0ce6cd52600000000"/>
+		<Metadata name="Catalog.Команды.Form.ФормаЭлемента" id="b95ad653-7235-51e6-a50c-d28684101337" configVersion="43a10a886b529e43ab0d26a3bcdd01ec00000000"/>
+		<Metadata name="Catalog.Команды.Form.ФормаЭлемента.Form" id="b95ad653-7235-51e6-a50c-d28684101337.0" configVersion="207ef7d26a47d046886d176c4142c58700000000"/>
+		<Metadata name="Catalog.Оборудование" id="efb2a35b-5af1-5ac1-9146-1f99af0cbbef" configVersion="a7d07eebbbdd60408502db92fc852e7e00000000">
 			<Metadata name="Catalog.Оборудование.Attribute.Состояние" id="1a1931f3-4fa4-59de-bb51-a967a465a251"/>
 			<Metadata name="Catalog.Оборудование.Attribute.Количество" id="c633825a-a19f-5ffd-9a04-d598cf66d6f0"/>
 			<Metadata name="Catalog.Оборудование.Attribute.Площадка" id="cfcd448b-7edb-55f8-afb4-c670929ea77a"/>
 			<Metadata name="Catalog.Оборудование.Attribute.ИнвентарныйНомер" id="f1ac8152-ed9e-5d65-8dc9-9359cf46242b"/>
 		</Metadata>
-		<Metadata name="Catalog.Оборудование.Form.ФормаСписка" id="f8b940f4-eb3b-51fa-a53b-17199b46f85c" configVersion="08e60b6372e59a4c9581c5806bd8538800000000"/>
-		<Metadata name="Catalog.Оборудование.Form.ФормаСписка.Form" id="f8b940f4-eb3b-51fa-a53b-17199b46f85c.0" configVersion="1b1297ea3fc08143ac48dd697e1ef78e00000000"/>
-		<Metadata name="Catalog.Оборудование.Form.ФормаЭлемента" id="96667e1b-8463-5d54-b6ca-5c792146ef0b" configVersion="69c8de1e4744fc43a1e1fe69e58d8f3f00000000"/>
-		<Metadata name="Catalog.Оборудование.Form.ФормаЭлемента.Form" id="96667e1b-8463-5d54-b6ca-5c792146ef0b.0" configVersion="24df979f5a7bbb4499f6f18f9b1ad68600000000"/>
-		<Metadata name="Catalog.Площадки" id="45663fc7-8db1-505f-8d7e-41799c2d03ff" configVersion="73ba5ca3f991c64d9c8bb9888f11afa200000000">
+		<Metadata name="Catalog.Оборудование.Form.ФормаСписка" id="f8b940f4-eb3b-51fa-a53b-17199b46f85c" configVersion="3fd7d9b9650df2499644ea65c2816bae00000000"/>
+		<Metadata name="Catalog.Оборудование.Form.ФормаСписка.Form" id="f8b940f4-eb3b-51fa-a53b-17199b46f85c.0" configVersion="f16c39e56835dc4192cf2d1d0ec90aca00000000"/>
+		<Metadata name="Catalog.Оборудование.Form.ФормаЭлемента" id="96667e1b-8463-5d54-b6ca-5c792146ef0b" configVersion="6ef029b78ff0644a91dc4a382ee0143f00000000"/>
+		<Metadata name="Catalog.Оборудование.Form.ФормаЭлемента.Form" id="96667e1b-8463-5d54-b6ca-5c792146ef0b.0" configVersion="d515c8b9cc93d440804f18d4412b858300000000"/>
+		<Metadata name="Catalog.Площадки" id="45663fc7-8db1-505f-8d7e-41799c2d03ff" configVersion="f904ac0b7ab490418fc3107c900755b900000000">
 			<Metadata name="Catalog.Площадки.Attribute.СпортивныйОбъект" id="84dfac9d-618c-5ca2-b651-e86f61a07612"/>
 			<Metadata name="Catalog.Площадки.Attribute.ВыведенаИзЭксплуатации" id="c65dddca-d757-59d9-a50a-49224c02d170"/>
 			<Metadata name="Catalog.Площадки.Attribute.Вместимость" id="e3dd9f4c-f00a-588a-9d16-374c82d50a78"/>
 		</Metadata>
-		<Metadata name="Catalog.Площадки.Form.ФормаСписка" id="e00d0188-943c-5df4-82c7-7606b0cfe301" configVersion="b347f1c040abd24d8a3ef92f459ea99200000000"/>
-		<Metadata name="Catalog.Площадки.Form.ФормаСписка.Form" id="e00d0188-943c-5df4-82c7-7606b0cfe301.0" configVersion="04726a39523cbc429eb45de2814aeac600000000"/>
-		<Metadata name="Catalog.Площадки.Form.ФормаЭлемента" id="064709f1-108c-5eb6-8dae-bce4659f7535" configVersion="1b411373eb4d7b4a9eb24c5f55b6d63c00000000"/>
-		<Metadata name="Catalog.Площадки.Form.ФормаЭлемента.Form" id="064709f1-108c-5eb6-8dae-bce4659f7535.0" configVersion="e05bdaaf1b11e34e86a706ecb53095f800000000"/>
-		<Metadata name="Catalog.СпортивныеОбъекты" id="711f2264-726a-5afe-bf29-6ed0a8ae290e" configVersion="407a67c61e83794bb874c2dc4d18c06d00000000">
+		<Metadata name="Catalog.Площадки.Form.ФормаСписка" id="e00d0188-943c-5df4-82c7-7606b0cfe301" configVersion="74a732cc5f746d4bb34bc210c0ee821b00000000"/>
+		<Metadata name="Catalog.Площадки.Form.ФормаСписка.Form" id="e00d0188-943c-5df4-82c7-7606b0cfe301.0" configVersion="f833776e7a58e7429a59d01549c54c4900000000"/>
+		<Metadata name="Catalog.Площадки.Form.ФормаЭлемента" id="064709f1-108c-5eb6-8dae-bce4659f7535" configVersion="84872f87cfebbb418350321ae05b62fd00000000"/>
+		<Metadata name="Catalog.Площадки.Form.ФормаЭлемента.Form" id="064709f1-108c-5eb6-8dae-bce4659f7535.0" configVersion="d41059caf8ec804285eebd8bfbeecffb00000000"/>
+		<Metadata name="Catalog.СпортивныеОбъекты" id="711f2264-726a-5afe-bf29-6ed0a8ae290e" configVersion="198d894245eb32478098bcd1120e30d600000000">
 			<Metadata name="Catalog.СпортивныеОбъекты.Attribute.Примечание" id="9e620bd1-7308-5cc2-a2fd-f1f7056c8f72"/>
 			<Metadata name="Catalog.СпортивныеОбъекты.Attribute.Адрес" id="c0be778d-96ec-5f7c-901a-64eaca183083"/>
 		</Metadata>
-		<Metadata name="Catalog.СпортивныеОбъекты.Form.ФормаСписка" id="105454b2-ebf1-5345-9e01-4f8f9db94b55" configVersion="0e633fc07f3f0d4ea0422b1832a6f40c00000000"/>
-		<Metadata name="Catalog.СпортивныеОбъекты.Form.ФормаСписка.Form" id="105454b2-ebf1-5345-9e01-4f8f9db94b55.0" configVersion="515323d8247d6d4b89ba6ca4c458e40f00000000"/>
-		<Metadata name="Catalog.СпортивныеОбъекты.Form.ФормаЭлемента" id="f5f1c635-c42b-59b3-ab9b-e77a9519179d" configVersion="d87b8fe6b02e7240b5077501bccfaf3800000000"/>
-		<Metadata name="Catalog.СпортивныеОбъекты.Form.ФормаЭлемента.Form" id="f5f1c635-c42b-59b3-ab9b-e77a9519179d.0" configVersion="ab4de08e17fdd74397ee3ea3f994d4ca00000000"/>
-		<Metadata name="Catalog.Спортсмены" id="d2a75188-e7bb-5470-b6c0-d856f074f3a7" configVersion="a2ccd22b4400744ea4bfecb0de93b1b900000000">
+		<Metadata name="Catalog.СпортивныеОбъекты.Form.ФормаСписка" id="105454b2-ebf1-5345-9e01-4f8f9db94b55" configVersion="f6de4f3e73616942a0dcecfa5953c3fa00000000"/>
+		<Metadata name="Catalog.СпортивныеОбъекты.Form.ФормаСписка.Form" id="105454b2-ebf1-5345-9e01-4f8f9db94b55.0" configVersion="40b1b3402c33904187f752904e01606600000000"/>
+		<Metadata name="Catalog.СпортивныеОбъекты.Form.ФормаЭлемента" id="f5f1c635-c42b-59b3-ab9b-e77a9519179d" configVersion="b5d0a5ef9cb583458185b6216a60037500000000"/>
+		<Metadata name="Catalog.СпортивныеОбъекты.Form.ФормаЭлемента.Form" id="f5f1c635-c42b-59b3-ab9b-e77a9519179d.0" configVersion="446bca5693cea0478f94869d1f54f0eb00000000"/>
+		<Metadata name="Catalog.Спортсмены" id="d2a75188-e7bb-5470-b6c0-d856f074f3a7" configVersion="fc61c85245a10e42abeb7d48d98a40dc00000000">
 			<Metadata name="Catalog.Спортсмены.Attribute.ДатаРождения" id="49c22c17-b64b-5c78-b963-c2e0c33df0b3"/>
 			<Metadata name="Catalog.Спортсмены.Attribute.ВидСпорта" id="75d4857c-fc68-50f7-aa85-767593b05aab"/>
 			<Metadata name="Catalog.Спортсмены.Attribute.Тренер" id="d73d40a4-e530-5bbf-84f7-20affbe4a7c2"/>
 		</Metadata>
-		<Metadata name="Catalog.Спортсмены.Form.ФормаСписка" id="e57c59e4-9d03-549c-ad25-b09055759b1c" configVersion="0a90266d912fac47a05899006b03914700000000"/>
-		<Metadata name="Catalog.Спортсмены.Form.ФормаСписка.Form" id="e57c59e4-9d03-549c-ad25-b09055759b1c.0" configVersion="bfc5ceae0420174db62c45246f5932e500000000"/>
-		<Metadata name="Catalog.Спортсмены.Form.ФормаЭлемента" id="5e04da4c-655b-59f2-b37d-61d3fdb6f32a" configVersion="4142ca5a9b9ec44194d9bf0df8799fa700000000"/>
-		<Metadata name="Catalog.Спортсмены.Form.ФормаЭлемента.Form" id="5e04da4c-655b-59f2-b37d-61d3fdb6f32a.0" configVersion="b717238deede604b95626ce449f8ce0c00000000"/>
-		<Metadata name="Catalog.Тренеры" id="f2115b32-1ea2-5a8c-964e-bb0154b921c4" configVersion="083408ae2d7a6741ade27ef733ed90e400000000">
+		<Metadata name="Catalog.Спортсмены.Form.ФормаСписка" id="e57c59e4-9d03-549c-ad25-b09055759b1c" configVersion="4e2de34e48873049965e5cb4a08290da00000000"/>
+		<Metadata name="Catalog.Спортсмены.Form.ФормаСписка.Form" id="e57c59e4-9d03-549c-ad25-b09055759b1c.0" configVersion="59f74651f1e2ed41a5eed0bafd997a3e00000000"/>
+		<Metadata name="Catalog.Спортсмены.Form.ФормаЭлемента" id="5e04da4c-655b-59f2-b37d-61d3fdb6f32a" configVersion="e5966bd5ac671c49bbc35168477beceb00000000"/>
+		<Metadata name="Catalog.Спортсмены.Form.ФормаЭлемента.Form" id="5e04da4c-655b-59f2-b37d-61d3fdb6f32a.0" configVersion="693c2befd29ad14d853f2f00f544415e00000000"/>
+		<Metadata name="Catalog.Тренеры" id="f2115b32-1ea2-5a8c-964e-bb0154b921c4" configVersion="7ee33a8b2044014a94c4638e510dc03600000000">
 			<Metadata name="Catalog.Тренеры.Attribute.ВидСпорта" id="e90d5e1b-bc1c-5916-8a64-3d9cda9c6ebc"/>
 		</Metadata>
-		<Metadata name="Catalog.Тренеры.Form.ФормаСписка" id="0a30f838-fe98-54b4-aec7-02c103b092a1" configVersion="dbb4acd0cc3fcc40baec3d0358d0e36f00000000"/>
-		<Metadata name="Catalog.Тренеры.Form.ФормаСписка.Form" id="0a30f838-fe98-54b4-aec7-02c103b092a1.0" configVersion="29673bfc47403844bcfdc04a9c0157dc00000000"/>
-		<Metadata name="Catalog.Тренеры.Form.ФормаЭлемента" id="211aa6c9-db6a-5eea-ba82-eb448e6d3fa6" configVersion="608bc79bdc146146810c6c73faaa770800000000"/>
-		<Metadata name="Catalog.Тренеры.Form.ФормаЭлемента.Form" id="211aa6c9-db6a-5eea-ba82-eb448e6d3fa6.0" configVersion="fd9f5798ea763a458cef14e35e80676100000000"/>
-		<Metadata name="CommonModule.Демонстрация" id="47b5e638-7fd5-5e85-aa12-3859f6a8b28d" configVersion="921f5c24d93a99449059c33349bd8daa00000000"/>
-		<Metadata name="CommonModule.Демонстрация.Module" id="47b5e638-7fd5-5e85-aa12-3859f6a8b28d.0" configVersion="a1d31c6499896a45a8b80199c6704e3800000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="e4e38b23-96b0-5c66-a8ab-8b5a313fc623" configVersion="c9a4dd91efcc1543ac2c4fa8bcf8f8c000000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер.Module" id="e4e38b23-96b0-5c66-a8ab-8b5a313fc623.0" configVersion="7c9fdf899f412d41a774b887e79e040a00000000"/>
-		<Metadata name="CommonModule.СпортивныеОтчеты" id="8059c55d-7b02-5ef4-9280-a7aac4a2d409" configVersion="a73634c98820ae4ba229eba4a8fd5ef400000000"/>
-		<Metadata name="CommonModule.СпортивныеОтчеты.Module" id="8059c55d-7b02-5ef4-9280-a7aac4a2d409.0" configVersion="14e8c3b860e8824a84ed329b0c9ec18d00000000"/>
-		<Metadata name="CommonModule.СпортивныеПравила" id="e26fb898-06ef-5f0a-8416-85210352cd24" configVersion="92148ef35fec6748adc995552bf267ad00000000"/>
-		<Metadata name="CommonModule.СпортивныеПравила.Module" id="e26fb898-06ef-5f0a-8416-85210352cd24.0" configVersion="faf0c65abbd2ca4e9c3d31cb4664b60900000000"/>
-		<Metadata name="CommonPicture.ЗначокИнфраструктура" id="a805c87d-7c15-52ee-adfd-0a95535b9845" configVersion="6960de75b6486f448e93a48d2f79714800000000"/>
-		<Metadata name="CommonPicture.ЗначокИнфраструктура.Picture" id="a805c87d-7c15-52ee-adfd-0a95535b9845.0" configVersion="439466e68eb3da4ca9d232cd1432b2f500000000"/>
-		<Metadata name="CommonPicture.ЗначокРезультаты" id="a7f81525-b565-5a4c-9c26-ac7cc7217e6d" configVersion="051e2e20a5da5d4eb332e7fcd031644c00000000"/>
-		<Metadata name="CommonPicture.ЗначокРезультаты.Picture" id="a7f81525-b565-5a4c-9c26-ac7cc7217e6d.0" configVersion="dfb6ef13a62f3e4e8208d590adf9cea900000000"/>
-		<Metadata name="CommonPicture.ЗначокСоревнования" id="77ef509d-b9e0-552b-bd5f-569ffb4d6a01" configVersion="dd5cd32c0bcc794c8a2e1896cd6fadcf00000000"/>
-		<Metadata name="CommonPicture.ЗначокСоревнования.Picture" id="77ef509d-b9e0-552b-bd5f-569ffb4d6a01.0" configVersion="930d5d4e19436048ab276597eae25e4e00000000"/>
-		<Metadata name="CommonPicture.ЗначокУчастники" id="a56309bd-e10a-58f4-a1c7-01b3fa149b6a" configVersion="3e1a81c3db45614bbd2eebe64d7a77b900000000"/>
-		<Metadata name="CommonPicture.ЗначокУчастники.Picture" id="a56309bd-e10a-58f4-a1c7-01b3fa149b6a.0" configVersion="e7c01a6aad71df44a1a66574c967542e00000000"/>
-		<Metadata name="Configuration.СпортивныеМероприятия" id="08c6e29c-2bf4-554e-b804-4da59ca1d88b" configVersion="35d865c1414cb94c89e5e298f28c44cb00000000"/>
-		<Metadata name="Configuration.СпортивныеМероприятия.CommandInterface" id="805855be-db9f-4cdc-b475-f384dab8b06f.a" configVersion="4947b0e33bfe334ebbffc5a7020f477400000000"/>
-		<Metadata name="Configuration.СпортивныеМероприятия.ManagedApplicationModule" id="805855be-db9f-4cdc-b475-f384dab8b06f.6" configVersion="0086266a7738e0489204e57c27563b8100000000"/>
-		<Metadata name="Document.Мероприятие" id="8c0522ba-884c-51da-8075-230b185fa8d8" configVersion="4f4aa3e96438474fb24e71b595d94ce000000000">
+		<Metadata name="Catalog.Тренеры.Form.ФормаСписка" id="0a30f838-fe98-54b4-aec7-02c103b092a1" configVersion="c6006b2176846d4fa90aeb5ecf39fa1100000000"/>
+		<Metadata name="Catalog.Тренеры.Form.ФормаСписка.Form" id="0a30f838-fe98-54b4-aec7-02c103b092a1.0" configVersion="0769959500cba342a572c215744d7d9600000000"/>
+		<Metadata name="Catalog.Тренеры.Form.ФормаЭлемента" id="211aa6c9-db6a-5eea-ba82-eb448e6d3fa6" configVersion="451fb05ed451aa4b8acd7a5643e3641600000000"/>
+		<Metadata name="Catalog.Тренеры.Form.ФормаЭлемента.Form" id="211aa6c9-db6a-5eea-ba82-eb448e6d3fa6.0" configVersion="1cdfcc5c1f203549a28ba2e15b19776600000000"/>
+		<Metadata name="CommonModule.Демонстрация" id="47b5e638-7fd5-5e85-aa12-3859f6a8b28d" configVersion="69b8252e3179924fa44433f0124872d900000000"/>
+		<Metadata name="CommonModule.Демонстрация.Module" id="47b5e638-7fd5-5e85-aa12-3859f6a8b28d.0" configVersion="554b661634df044fb97a83ba97f1bf3500000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="e4e38b23-96b0-5c66-a8ab-8b5a313fc623" configVersion="bb4427b1c0a1fd41adb3538059b3231b00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер.Module" id="e4e38b23-96b0-5c66-a8ab-8b5a313fc623.0" configVersion="eaf4fddc1148b34c9a3174b4e7d20b4b00000000"/>
+		<Metadata name="CommonModule.СпортивныеОтчеты" id="8059c55d-7b02-5ef4-9280-a7aac4a2d409" configVersion="cd4fda00ad470645bf5e76956057ca5100000000"/>
+		<Metadata name="CommonModule.СпортивныеОтчеты.Module" id="8059c55d-7b02-5ef4-9280-a7aac4a2d409.0" configVersion="d943dd5138ce9749804203db65dbc4ad00000000"/>
+		<Metadata name="CommonModule.СпортивныеПравила" id="e26fb898-06ef-5f0a-8416-85210352cd24" configVersion="e40b6369ccc9b74f9ec7b5561b5192b800000000"/>
+		<Metadata name="CommonModule.СпортивныеПравила.Module" id="e26fb898-06ef-5f0a-8416-85210352cd24.0" configVersion="67f53ee847f4ae489f932d5468ca0c5900000000"/>
+		<Metadata name="CommonModule.СтроковыеФункцииКлиентСервер" id="81455ae1-d7b7-534e-9b1f-075657700aef" configVersion="8953eb5a499e3949b24b8281229d632600000000"/>
+		<Metadata name="CommonModule.СтроковыеФункцииКлиентСервер.Module" id="81455ae1-d7b7-534e-9b1f-075657700aef.0" configVersion="2e9f7eacc29c064e83d69c098283aa9400000000"/>
+		<Metadata name="CommonPicture.ЗначокИнфраструктура" id="a805c87d-7c15-52ee-adfd-0a95535b9845" configVersion="f6c67c6d225e104f8735fe26a50adc1a00000000"/>
+		<Metadata name="CommonPicture.ЗначокИнфраструктура.Picture" id="a805c87d-7c15-52ee-adfd-0a95535b9845.0" configVersion="061b8c54e9093a4e8a62fbca0077ea5500000000"/>
+		<Metadata name="CommonPicture.ЗначокРезультаты" id="a7f81525-b565-5a4c-9c26-ac7cc7217e6d" configVersion="858e41c7e20ae04e871b82d749dc6dc100000000"/>
+		<Metadata name="CommonPicture.ЗначокРезультаты.Picture" id="a7f81525-b565-5a4c-9c26-ac7cc7217e6d.0" configVersion="be93238b67ac6c4ebd00b3a89ca0341100000000"/>
+		<Metadata name="CommonPicture.ЗначокСоревнования" id="77ef509d-b9e0-552b-bd5f-569ffb4d6a01" configVersion="a363cdc539c577459356fc6d6320eaf400000000"/>
+		<Metadata name="CommonPicture.ЗначокСоревнования.Picture" id="77ef509d-b9e0-552b-bd5f-569ffb4d6a01.0" configVersion="a38f03504711c0468e805c1b226516b200000000"/>
+		<Metadata name="CommonPicture.ЗначокУчастники" id="a56309bd-e10a-58f4-a1c7-01b3fa149b6a" configVersion="b67154f96db46f4f8a0c0bc577bc056200000000"/>
+		<Metadata name="CommonPicture.ЗначокУчастники.Picture" id="a56309bd-e10a-58f4-a1c7-01b3fa149b6a.0" configVersion="37e300c46e1dda40b99998ffaba003c400000000"/>
+		<Metadata name="Configuration.СпортивныеМероприятия" id="08c6e29c-2bf4-554e-b804-4da59ca1d88b" configVersion="001545c98d0dbb42819fcc3337d7786a00000000"/>
+		<Metadata name="Configuration.СпортивныеМероприятия.CommandInterface" id="805855be-db9f-4cdc-b475-f384dab8b06f.a" configVersion="bc8713dcb56544428e3a7e43d33626f800000000"/>
+		<Metadata name="Configuration.СпортивныеМероприятия.ManagedApplicationModule" id="805855be-db9f-4cdc-b475-f384dab8b06f.6" configVersion="c17b6e551aedb944b1af016c803ef44100000000"/>
+		<Metadata name="Document.Мероприятие" id="8c0522ba-884c-51da-8075-230b185fa8d8" configVersion="d159aa507c405a468513a6335af2be9d00000000">
 			<Metadata name="Document.Мероприятие.Attribute.Организатор" id="08fa2e9b-d1bb-5702-aba0-61c1ecceb945"/>
 			<Metadata name="Document.Мероприятие.Attribute.Начало" id="27735b0c-e840-5b42-aae7-b078983e94e5"/>
 			<Metadata name="Document.Мероприятие.Attribute.Площадка" id="59f579bd-e804-5d01-b085-69f9dbff6f93"/>
 			<Metadata name="Document.Мероприятие.Attribute.ВидСпорта" id="5e9ff303-30fd-56b2-aac5-bcc6a92449b0"/>
+			<Metadata name="Document.Мероприятие.TabularSection.Оборудование" id="88cd59eb-0416-586c-a314-f07f15e54939"/>
 			<Metadata name="Document.Мероприятие.Attribute.Лимит" id="9425be1e-6af3-5f3d-b6b6-03423de85b0e"/>
+			<Metadata name="Document.Мероприятие.TabularSection.Оборудование.Attribute.Оборудование" id="b0284fe8-8ab8-5d63-9940-1d706d98165b"/>
+			<Metadata name="Document.Мероприятие.TabularSection.Оборудование.Attribute.Количество" id="bcd16174-f0f4-58f8-90ad-aa3eca5dcc7e"/>
 			<Metadata name="Document.Мероприятие.Attribute.Название" id="c8127de8-b8fa-5cf9-a892-fdf169772a5d"/>
 			<Metadata name="Document.Мероприятие.Attribute.Статус" id="cd27770f-624e-541e-824b-fd37bfd8c30e"/>
 			<Metadata name="Document.Мероприятие.Attribute.Формат" id="d1464108-3562-5e88-b365-ca2a07d564f5"/>
 			<Metadata name="Document.Мероприятие.Attribute.Окончание" id="da4dea0a-6534-51dd-baf5-7b7b694342c5"/>
 		</Metadata>
-		<Metadata name="Document.Мероприятие.Form.ФормаДокумента" id="9e4ad5b0-779e-533e-950a-0bdea5eef3e5" configVersion="9c926bfd019ee8419430eac42737069800000000"/>
-		<Metadata name="Document.Мероприятие.Form.ФормаДокумента.Form" id="9e4ad5b0-779e-533e-950a-0bdea5eef3e5.0" configVersion="5a0357e350d2284db1f15340fd3d414c00000000"/>
-		<Metadata name="Document.Мероприятие.Form.ФормаСписка" id="3b0801a0-4d13-5b11-81bd-6414e140c6d6" configVersion="61c976c963d6a841a6fe4365f5a4bacf00000000"/>
-		<Metadata name="Document.Мероприятие.Form.ФормаСписка.Form" id="3b0801a0-4d13-5b11-81bd-6414e140c6d6.0" configVersion="ce2226d53b12a648ae137a8e4c652c1900000000"/>
-		<Metadata name="Document.Мероприятие.ObjectModule" id="8c0522ba-884c-51da-8075-230b185fa8d8.0" configVersion="3de169bd65339944ab3d897110a41fb600000000"/>
-		<Metadata name="Document.Протокол" id="db0077ac-bd5a-5edd-9065-04f63f46893b" configVersion="83748711e90a6a4c9d6ed099daa4e5bc00000000">
+		<Metadata name="Document.Мероприятие.Form.ФормаДокумента" id="9e4ad5b0-779e-533e-950a-0bdea5eef3e5" configVersion="8284728a05ab084f8a40bd168db7e6e900000000"/>
+		<Metadata name="Document.Мероприятие.Form.ФормаДокумента.Form" id="9e4ad5b0-779e-533e-950a-0bdea5eef3e5.0" configVersion="d59fc31c1e81d541ab6704326a2732d500000000"/>
+		<Metadata name="Document.Мероприятие.Form.ФормаСписка" id="3b0801a0-4d13-5b11-81bd-6414e140c6d6" configVersion="7cefbf9af352f549947bdd0c61491dc700000000"/>
+		<Metadata name="Document.Мероприятие.Form.ФормаСписка.Form" id="3b0801a0-4d13-5b11-81bd-6414e140c6d6.0" configVersion="5f90519c10477f4f85615a6b1129bb1e00000000"/>
+		<Metadata name="Document.Мероприятие.ManagerModule" id="8c0522ba-884c-51da-8075-230b185fa8d8.2" configVersion="50fa1d79f4c8c04c93b3a53be79e1cbd00000000"/>
+		<Metadata name="Document.Мероприятие.ObjectModule" id="8c0522ba-884c-51da-8075-230b185fa8d8.0" configVersion="acf41ae94b6c054fa3563bfb4ad09dc100000000"/>
+		<Metadata name="Document.Протокол" id="db0077ac-bd5a-5edd-9065-04f63f46893b" configVersion="94fbf6a5bd848f44803bef3082c796fb00000000">
 			<Metadata name="Document.Протокол.TabularSection.Результаты.Attribute.Причина" id="10c04dad-9c5f-51e3-8780-1e4f61677010"/>
 			<Metadata name="Document.Протокол.TabularSection.Результаты.Attribute.Примечание" id="2388c46f-85b1-59d8-b192-427a037cc253"/>
 			<Metadata name="Document.Протокол.Attribute.Мероприятие" id="32c24c11-8735-5e83-b14b-b1bd55fd8357"/>
@@ -107,53 +113,53 @@
 			<Metadata name="Document.Протокол.TabularSection.Результаты.Attribute.Участник" id="c81f81c9-8cd4-5426-bc01-a69ac2ede80c"/>
 			<Metadata name="Document.Протокол.TabularSection.Результаты.Attribute.Результат" id="d1b862f6-3b2c-54be-b831-95b072c93eb2"/>
 		</Metadata>
-		<Metadata name="Document.Протокол.Form.ФормаДокумента" id="7869a825-2362-57a8-b2ac-0c3c0275b2f5" configVersion="9f250fc504878f4182d89a7bb5f8ef4900000000"/>
-		<Metadata name="Document.Протокол.Form.ФормаДокумента.Form" id="7869a825-2362-57a8-b2ac-0c3c0275b2f5.0" configVersion="abe54183609b884b88e8777dcf9054c100000000"/>
-		<Metadata name="Document.Протокол.Form.ФормаСписка" id="7a431135-b5d1-5ebb-9e1c-b7d02d99ce3c" configVersion="a3b51104b00a374aa8206261e17806ac00000000"/>
-		<Metadata name="Document.Протокол.Form.ФормаСписка.Form" id="7a431135-b5d1-5ebb-9e1c-b7d02d99ce3c.0" configVersion="b38769da73a3cb4f827067f91e604dba00000000"/>
-		<Metadata name="Document.Протокол.ObjectModule" id="db0077ac-bd5a-5edd-9065-04f63f46893b.0" configVersion="19c4296d4fe3f743b4efb207f6b1a99600000000"/>
-		<Metadata name="Document.Регистрация" id="d22f1aa0-7f8c-5d36-9554-87b04d4ee341" configVersion="06ea06b8fc1d3f458bbee10a63d467d500000000">
+		<Metadata name="Document.Протокол.Form.ФормаДокумента" id="7869a825-2362-57a8-b2ac-0c3c0275b2f5" configVersion="dc041bff22430540acae5906e3558ed800000000"/>
+		<Metadata name="Document.Протокол.Form.ФормаДокумента.Form" id="7869a825-2362-57a8-b2ac-0c3c0275b2f5.0" configVersion="ac402bb5dca9554690bd71ab390173e200000000"/>
+		<Metadata name="Document.Протокол.Form.ФормаСписка" id="7a431135-b5d1-5ebb-9e1c-b7d02d99ce3c" configVersion="6713c0b9018ffd45938cd11a8023b97c00000000"/>
+		<Metadata name="Document.Протокол.Form.ФормаСписка.Form" id="7a431135-b5d1-5ebb-9e1c-b7d02d99ce3c.0" configVersion="38331dcdeaa90740a68d2575077fb0a400000000"/>
+		<Metadata name="Document.Протокол.ObjectModule" id="db0077ac-bd5a-5edd-9065-04f63f46893b.0" configVersion="d9d617bc878c8746af83a37beb9efc0a00000000"/>
+		<Metadata name="Document.Регистрация" id="d22f1aa0-7f8c-5d36-9554-87b04d4ee341" configVersion="4d7a33e5e00fcb4b88d43835258ca70200000000">
 			<Metadata name="Document.Регистрация.TabularSection.Участники.Attribute.Участник" id="17dd0f41-1a18-5cb4-9e2e-443835911a43"/>
 			<Metadata name="Document.Регистрация.TabularSection.Участники" id="596780a6-cbee-5b95-aa6e-f316c6b4cb6a"/>
 			<Metadata name="Document.Регистрация.Attribute.Мероприятие" id="fd096155-7a7c-5f90-aee0-40096c334179"/>
 		</Metadata>
-		<Metadata name="Document.Регистрация.Form.ФормаДокумента" id="b74bef73-2bc3-5fdd-bcc1-62c625b1df97" configVersion="7f196b76ccbf354389f0c5d2c77f4ef000000000"/>
-		<Metadata name="Document.Регистрация.Form.ФормаДокумента.Form" id="b74bef73-2bc3-5fdd-bcc1-62c625b1df97.0" configVersion="2a0dec63bc7fd54fa8f0bb7179c9c28300000000"/>
-		<Metadata name="Document.Регистрация.Form.ФормаСписка" id="a6f975f0-a128-531e-b177-98f046ee4e03" configVersion="b98fa5000140c743ba730ed3d99cc5c600000000"/>
-		<Metadata name="Document.Регистрация.Form.ФормаСписка.Form" id="a6f975f0-a128-531e-b177-98f046ee4e03.0" configVersion="6ea36203fa9cac429367a7967315672200000000"/>
-		<Metadata name="Document.Регистрация.ObjectModule" id="d22f1aa0-7f8c-5d36-9554-87b04d4ee341.0" configVersion="c954492f987f7e44a6f2c87f92ff4dab00000000"/>
-		<Metadata name="Enum.ПоказателиРезультата" id="73b085fc-2d00-52b4-bd3f-2c5f5a7618c9" configVersion="1d4ff687ff27bd498f560569c3667ae400000000">
+		<Metadata name="Document.Регистрация.Form.ФормаДокумента" id="b74bef73-2bc3-5fdd-bcc1-62c625b1df97" configVersion="1cc674843ce49f4794762a3ad27c2bc900000000"/>
+		<Metadata name="Document.Регистрация.Form.ФормаДокумента.Form" id="b74bef73-2bc3-5fdd-bcc1-62c625b1df97.0" configVersion="56111ea87554b64588bd701a2b16a1eb00000000"/>
+		<Metadata name="Document.Регистрация.Form.ФормаСписка" id="a6f975f0-a128-531e-b177-98f046ee4e03" configVersion="f203cd4bfe7a924aba8b5172dd86bc5c00000000"/>
+		<Metadata name="Document.Регистрация.Form.ФормаСписка.Form" id="a6f975f0-a128-531e-b177-98f046ee4e03.0" configVersion="3f80aff3de31804a9b72188ceec4665b00000000"/>
+		<Metadata name="Document.Регистрация.ObjectModule" id="d22f1aa0-7f8c-5d36-9554-87b04d4ee341.0" configVersion="29f757446c5d824594890f136431bf9800000000"/>
+		<Metadata name="Enum.ПоказателиРезультата" id="73b085fc-2d00-52b4-bd3f-2c5f5a7618c9" configVersion="216fd16567368942b9a812297772ff6300000000">
 			<Metadata name="Enum.ПоказателиРезультата.EnumValue.Расстояние" id="3819533e-2952-5f5c-820e-8b79a33c0744"/>
 			<Metadata name="Enum.ПоказателиРезультата.EnumValue.Вес" id="3b6b8cb0-640c-58fd-902e-7d73156b4e19"/>
 			<Metadata name="Enum.ПоказателиРезультата.EnumValue.Время" id="457b0a3f-d45b-5b4f-8ac8-40df7fcb5161"/>
 			<Metadata name="Enum.ПоказателиРезультата.EnumValue.Очки" id="c06ddf6a-dd86-5b67-9c0e-fcd4d77a576b"/>
 		</Metadata>
-		<Metadata name="Enum.СостоянияОборудования" id="e0be160a-4bbd-5f22-a47a-2ae52ac89d00" configVersion="688a04aef668e445a9e6d6b7a5c25fa200000000">
+		<Metadata name="Enum.СостоянияОборудования" id="e0be160a-4bbd-5f22-a47a-2ae52ac89d00" configVersion="c7b6a196316d1c4c9ca06c0ac09cac2e00000000">
 			<Metadata name="Enum.СостоянияОборудования.EnumValue.ТребуетРемонта" id="6c4de170-2e9e-545a-86f0-fb8eccc77411"/>
 			<Metadata name="Enum.СостоянияОборудования.EnumValue.Исправно" id="75918bc7-2902-592d-ab73-f948b2dec9a3"/>
 			<Metadata name="Enum.СостоянияОборудования.EnumValue.Списано" id="860b3161-1eb1-5bfb-88bb-63d5102287f9"/>
 		</Metadata>
-		<Metadata name="Enum.СтатусыМероприятий" id="962c18aa-114a-5d93-9cba-59daf50ec894" configVersion="c2ded87b15481e4785a81f008db6347700000000">
+		<Metadata name="Enum.СтатусыМероприятий" id="962c18aa-114a-5d93-9cba-59daf50ec894" configVersion="21cbcca54cae0a41a54f4b16b83479b600000000">
 			<Metadata name="Enum.СтатусыМероприятий.EnumValue.РегистрацияЗакрыта" id="51fb0911-5c49-5bef-a264-6ed556a089e1"/>
 			<Metadata name="Enum.СтатусыМероприятий.EnumValue.Отменено" id="913f7da4-45bc-56c7-a0ba-c80dee75e1fe"/>
 			<Metadata name="Enum.СтатусыМероприятий.EnumValue.Запланировано" id="a45a657e-2a85-57f6-96fe-998a9ba92130"/>
 			<Metadata name="Enum.СтатусыМероприятий.EnumValue.Завершено" id="e19a7b6e-c052-5a0f-9369-7cfe29b0d73e"/>
 		</Metadata>
-		<Metadata name="Enum.ФорматыСоревнований" id="5cb0ba40-9499-5247-91b5-c74eb03f4013" configVersion="4ecb9bd427a696449e1dd3bc3d51909d00000000">
+		<Metadata name="Enum.ФорматыСоревнований" id="5cb0ba40-9499-5247-91b5-c74eb03f4013" configVersion="5a3ce57c0fd28745b5c8d3d47371d2da00000000">
 			<Metadata name="Enum.ФорматыСоревнований.EnumValue.Личный" id="394fa87a-eb0d-5ae8-8e40-2ce668f433c0"/>
 			<Metadata name="Enum.ФорматыСоревнований.EnumValue.Командный" id="8d1d0d01-aee6-56c3-a187-b72d527ec6a5"/>
 		</Metadata>
-		<Metadata name="InformationRegister.БронированияПлощадок" id="d265db29-f70b-5ee3-b782-a87b3b960f69" configVersion="a18e2579e837b045b6098c533d2a7b9000000000">
+		<Metadata name="InformationRegister.БронированияПлощадок" id="d265db29-f70b-5ee3-b782-a87b3b960f69" configVersion="9edda9624c86f9439feda10be745678200000000">
 			<Metadata name="InformationRegister.БронированияПлощадок.Resource.Окончание" id="4b41960a-d328-5801-84de-b3e55e96cfcc"/>
 			<Metadata name="InformationRegister.БронированияПлощадок.Dimension.Мероприятие" id="71d93a91-e3f9-528b-843c-5cf5c2f14bbf"/>
 			<Metadata name="InformationRegister.БронированияПлощадок.Dimension.Площадка" id="7adcf1e1-b7d4-5de6-a47d-f5508f2dd335"/>
 			<Metadata name="InformationRegister.БронированияПлощадок.Resource.Начало" id="bfcfa078-11ff-5c99-a48f-9e49c0cfae38"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ЗарегистрированныеУчастники" id="3d61c3d9-0d1d-5038-8f5f-8fad0c79a325" configVersion="fad9adf7913bf6468df3568ebe0d405300000000">
+		<Metadata name="InformationRegister.ЗарегистрированныеУчастники" id="3d61c3d9-0d1d-5038-8f5f-8fad0c79a325" configVersion="a4048d1793d6294e8090e2da19a1d65c00000000">
 			<Metadata name="InformationRegister.ЗарегистрированныеУчастники.Dimension.Участник" id="628a6505-06aa-5030-9920-293b74329e44"/>
 			<Metadata name="InformationRegister.ЗарегистрированныеУчастники.Dimension.Мероприятие" id="b32ba1f9-7604-5316-8d34-522c3996c7b8"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ИтогиСоревнований" id="b90cce2c-cf0f-54b6-b73a-7e1680803414" configVersion="f3c56b3e3a6c2e4a9ade9fa6ac84e7d300000000">
+		<Metadata name="InformationRegister.ИтогиСоревнований" id="b90cce2c-cf0f-54b6-b73a-7e1680803414" configVersion="6f5ed2f1ba420a47b29bfeb891228a0500000000">
 			<Metadata name="InformationRegister.ИтогиСоревнований.Resource.Место" id="1f02021e-1808-54b2-af35-fc8093a78e18"/>
 			<Metadata name="InformationRegister.ИтогиСоревнований.Resource.МестоВручную" id="5ebae52e-0576-577d-9f31-5cb68ea3e3c1"/>
 			<Metadata name="InformationRegister.ИтогиСоревнований.Dimension.Участник" id="6247382b-a840-5136-a546-9ec45ebc704b"/>
@@ -162,25 +168,25 @@
 			<Metadata name="InformationRegister.ИтогиСоревнований.Resource.Результат" id="a0b23cf1-5919-5d25-b63b-aed4ef9ddaa5"/>
 			<Metadata name="InformationRegister.ИтогиСоревнований.Dimension.Мероприятие" id="e836146e-9b52-51fc-9c94-fcdd1ecc8496"/>
 		</Metadata>
-		<Metadata name="Language.Русский" id="c818cfce-8ec5-48f7-b18b-c4e4f7223eb4" configVersion="30e85204e5b7ac46b9fd2efa738f15d200000000"/>
-		<Metadata name="Report.ЗагрузкаПлощадок" id="8752c689-979a-567d-9607-598e0a0f37f4" configVersion="ebb1b463c8f76b498165b44f90f8e80a00000000"/>
-		<Metadata name="Report.ЗагрузкаПлощадок.Form.ФормаОтчета" id="0278376f-e821-55bd-bf0b-047703c67f7f" configVersion="678bc3e7236c594fa3c30ddc81ea251200000000"/>
-		<Metadata name="Report.ЗагрузкаПлощадок.Form.ФормаОтчета.Form" id="0278376f-e821-55bd-bf0b-047703c67f7f.0" configVersion="9fa4fb83973c7840bcaec63f8437a65000000000"/>
-		<Metadata name="Report.ИтоговыйПротокол" id="d4b406be-0e2f-5c5f-85f2-8550919220fb" configVersion="a8679799ff379940839e15748a87ca4b00000000"/>
-		<Metadata name="Report.ИтоговыйПротокол.Form.ФормаОтчета" id="c6a8bc5f-646c-5b24-b0f8-62ca294bac87" configVersion="df7888cbd7eac548a57d83cd3ef3c91d00000000"/>
-		<Metadata name="Report.ИтоговыйПротокол.Form.ФормаОтчета.Form" id="c6a8bc5f-646c-5b24-b0f8-62ca294bac87.0" configVersion="a71023b527cb224d902fba0ae9baff4c00000000"/>
-		<Metadata name="Report.Календарь" id="cba2488d-c038-5bec-a24c-84fe780f36e0" configVersion="f8e2d038aaf20e49b340d550a899b4e500000000"/>
-		<Metadata name="Report.Календарь.Form.ФормаОтчета" id="eba0f45d-6ee5-5ebb-80da-951aabde44bf" configVersion="0f247eb48a6277468e2febf576e4a64500000000"/>
-		<Metadata name="Report.Календарь.Form.ФормаОтчета.Form" id="eba0f45d-6ee5-5ebb-80da-951aabde44bf.0" configVersion="cbc109791a70684184fcec953deb228a00000000"/>
-		<Metadata name="Report.РейтингСпортсменов" id="417e3cb4-57c4-5310-a2c8-5c98ea9c9e72" configVersion="4da67192af0d6a49991ddc17026ce89300000000"/>
-		<Metadata name="Report.РейтингСпортсменов.Form.ФормаОтчета" id="ba75d166-843e-5642-a58e-485fa37e979f" configVersion="829142d75dbfc649b0bd6a37e3911e0a00000000"/>
-		<Metadata name="Report.РейтингСпортсменов.Form.ФормаОтчета.Form" id="ba75d166-843e-5642-a58e-485fa37e979f.0" configVersion="f5ca9671d799424c88b15994e0e75a6e00000000"/>
-		<Metadata name="Report.СписокУчастников" id="cba74483-9ff2-5f81-b1a0-b595aa261676" configVersion="dd2c262c6a0731488db409190ee051e500000000"/>
-		<Metadata name="Report.СписокУчастников.Form.ФормаОтчета" id="dd19fce0-8051-5178-8eb7-75e23d3e7e4e" configVersion="4f43735a8c936841905eb28672447e7e00000000"/>
-		<Metadata name="Report.СписокУчастников.Form.ФормаОтчета.Form" id="dd19fce0-8051-5178-8eb7-75e23d3e7e4e.0" configVersion="12d65b1bce829549ae175b7338557c3e00000000"/>
-		<Metadata name="Subsystem.Инфраструктура" id="7bedb5c2-b568-5f16-9cc2-93629828cc27" configVersion="77a53985eac5df4fa73da0a2d9364a3f00000000"/>
-		<Metadata name="Subsystem.Результаты" id="3a35c227-62e9-5d72-b6a3-f1a04d29825d" configVersion="e861dd48edccd0419a56efeb0e05ac9300000000"/>
-		<Metadata name="Subsystem.Соревнования" id="df61ad5a-955d-50ce-b6dc-d6510465771d" configVersion="49d4fba74098004aaaeb48894f74958200000000"/>
-		<Metadata name="Subsystem.Участники" id="e198cc18-f044-52d0-acd4-5f692fa18b6c" configVersion="a855d1caeb45bc48836a063a8e6c4ca000000000"/>
+		<Metadata name="Language.Русский" id="c818cfce-8ec5-48f7-b18b-c4e4f7223eb4" configVersion="84ca0ec614cc8743af367b2a9972ec4a00000000"/>
+		<Metadata name="Report.ЗагрузкаПлощадок" id="8752c689-979a-567d-9607-598e0a0f37f4" configVersion="5bd329db25003949b00457cffee1194700000000"/>
+		<Metadata name="Report.ЗагрузкаПлощадок.Form.ФормаОтчета" id="0278376f-e821-55bd-bf0b-047703c67f7f" configVersion="bec38570bd64c14d9be7402eee302b2b00000000"/>
+		<Metadata name="Report.ЗагрузкаПлощадок.Form.ФормаОтчета.Form" id="0278376f-e821-55bd-bf0b-047703c67f7f.0" configVersion="1c6a5c1d126f464aa681c858d5cd580600000000"/>
+		<Metadata name="Report.ИтоговыйПротокол" id="d4b406be-0e2f-5c5f-85f2-8550919220fb" configVersion="5de4bb2d33410e44a4fb7194979ca70700000000"/>
+		<Metadata name="Report.ИтоговыйПротокол.Form.ФормаОтчета" id="c6a8bc5f-646c-5b24-b0f8-62ca294bac87" configVersion="9a085cb9e44f7b4f9de5cd0fc3f3d41900000000"/>
+		<Metadata name="Report.ИтоговыйПротокол.Form.ФормаОтчета.Form" id="c6a8bc5f-646c-5b24-b0f8-62ca294bac87.0" configVersion="bef3195daf5f8a4dab13ebda9b002f2c00000000"/>
+		<Metadata name="Report.Календарь" id="cba2488d-c038-5bec-a24c-84fe780f36e0" configVersion="16bc159813f2ac42a2e4509a7828432b00000000"/>
+		<Metadata name="Report.Календарь.Form.ФормаОтчета" id="eba0f45d-6ee5-5ebb-80da-951aabde44bf" configVersion="051fc8feb4bcba40a4a1b727e47e658f00000000"/>
+		<Metadata name="Report.Календарь.Form.ФормаОтчета.Form" id="eba0f45d-6ee5-5ebb-80da-951aabde44bf.0" configVersion="dbed752d77932c42a0641bbfe1b71c1400000000"/>
+		<Metadata name="Report.РейтингСпортсменов" id="417e3cb4-57c4-5310-a2c8-5c98ea9c9e72" configVersion="d747c0887690a94882562e58b11cf48a00000000"/>
+		<Metadata name="Report.РейтингСпортсменов.Form.ФормаОтчета" id="ba75d166-843e-5642-a58e-485fa37e979f" configVersion="56204b71fb2fe44e869322fe0a43723800000000"/>
+		<Metadata name="Report.РейтингСпортсменов.Form.ФормаОтчета.Form" id="ba75d166-843e-5642-a58e-485fa37e979f.0" configVersion="5924781244aa9d49a2b99bd9793fc4ac00000000"/>
+		<Metadata name="Report.СписокУчастников" id="cba74483-9ff2-5f81-b1a0-b595aa261676" configVersion="aa525a061d4f224a9842d22c4a59a44100000000"/>
+		<Metadata name="Report.СписокУчастников.Form.ФормаОтчета" id="dd19fce0-8051-5178-8eb7-75e23d3e7e4e" configVersion="293ad64f8e1ec045953d13a38fbbe59600000000"/>
+		<Metadata name="Report.СписокУчастников.Form.ФормаОтчета.Form" id="dd19fce0-8051-5178-8eb7-75e23d3e7e4e.0" configVersion="adfad1e66ef4294385c7d0a49fcd229800000000"/>
+		<Metadata name="Subsystem.Инфраструктура" id="7bedb5c2-b568-5f16-9cc2-93629828cc27" configVersion="aa44dfc09cd61b4b8394b182f01273f300000000"/>
+		<Metadata name="Subsystem.Результаты" id="3a35c227-62e9-5d72-b6a3-f1a04d29825d" configVersion="434a542c8da01e4faaee221742ce3ec000000000"/>
+		<Metadata name="Subsystem.Соревнования" id="df61ad5a-955d-50ce-b6dc-d6510465771d" configVersion="70108563c6a2774da43dac80e9186aca00000000"/>
+		<Metadata name="Subsystem.Участники" id="e198cc18-f044-52d0-acd4-5f692fa18b6c" configVersion="7371b3a6bd8b9b40b13cbf36f4819ac100000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

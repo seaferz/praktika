@@ -8,3 +8,4 @@
 *.pdf binary
 *.png binary
 "src/CommonModules/ОбщегоНазначенияКлиентСервер/Ext/Module.bsl" whitespace=-blank-at-eol
+"src/CommonModules/СтроковыеФункцииКлиентСервер/Ext/Module.bsl" whitespace=-blank-at-eol

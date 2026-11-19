@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="КнопкаУчастники" id="1">
+				<Type>CommandBarButton</Type>
+				<Representation>Text</Representation>
+				<CommandName>Form.Command.Участники</CommandName>
+				<ExtendedTooltip name="КнопкаУчастникиРасширеннаяПодсказка" id="12"/>
+			</Button>
+			<Button name="КнопкаОткрытьПротокол" id="2">
+				<Type>CommandBarButton</Type>
+				<Representation>Text</Representation>
+				<CommandName>Form.Command.ОткрытьПротокол</CommandName>
+				<ExtendedTooltip name="КнопкаОткрытьПротоколРасширеннаяПодсказка" id="13"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="ОбъектНазвание" id="3">
+			<DataPath>Объект.Название</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Название</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОбъектНазваниеКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ОбъектНазваниеРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ОбъектВидСпорта" id="4">
+			<DataPath>Объект.ВидСпорта</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид спорта</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОбъектВидСпортаКонтекстноеМеню" id="16"/>
+			<ExtendedTooltip name="ОбъектВидСпортаРасширеннаяПодсказка" id="17"/>
+		</InputField>
+		<InputField name="ОбъектОрганизатор" id="5">
+			<DataPath>Объект.Организатор</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организатор</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОбъектОрганизаторКонтекстноеМеню" id="18"/>
+			<ExtendedTooltip name="ОбъектОрганизаторРасширеннаяПодсказка" id="19"/>
+		</InputField>
+		<InputField name="ОбъектНачало" id="6">
+			<DataPath>Объект.Начало</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Начало</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОбъектНачалоКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ОбъектНачалоРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="ОбъектОкончание" id="7">
+			<DataPath>Объект.Окончание</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Окончание</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОбъектОкончаниеКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="ОбъектОкончаниеРасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<InputField name="ОбъектПлощадка" id="8">
+			<DataPath>Объект.Площадка</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Площадка</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОбъектПлощадкаКонтекстноеМеню" id="24"/>
+			<ExtendedTooltip name="ОбъектПлощадкаРасширеннаяПодсказка" id="25"/>
+		</InputField>
+		<InputField name="ОбъектФормат" id="9">
+			<DataPath>Объект.Формат</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Формат соревнования</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОбъектФорматКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ОбъектФорматРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="ОбъектЛимит" id="10">
+			<DataPath>Объект.Лимит</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Максимум участников</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОбъектЛимитКонтекстноеМеню" id="28"/>
+			<ExtendedTooltip name="ОбъектЛимитРасширеннаяПодсказка" id="29"/>
+		</InputField>
+		<InputField name="ОбъектСтатус" id="11">
+			<DataPath>Объект.Статус</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОбъектСтатусКонтекстноеМеню" id="30"/>
+			<ExtendedTooltip name="ОбъектСтатусРасширеннаяПодсказка" id="31"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.Мероприятие</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Участники" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Участники</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Участники</Action>
+		</Command>
+		<Command name="ОткрытьПротокол" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Итоговый протокол</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ОткрытьПротокол</Action>
+		</Command>
+	</Commands>
+</Form>

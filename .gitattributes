@@ -1,0 +1,10 @@
+* text=auto
+*.bsl text eol=crlf
+*.xml text eol=crlf
+*.ps1 text eol=crlf
+*.cf binary
+*.dt binary
+*.docx binary
+*.pdf binary
+*.png binary
+"src/CommonModules/ОбщегоНазначенияКлиентСервер/Ext/Module.bsl" whitespace=-blank-at-eol

@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="КнопкаЗаполнитьУчастников" id="1">
+				<Type>CommandBarButton</Type>
+				<Representation>Text</Representation>
+				<CommandName>Form.Command.ЗаполнитьУчастников</CommandName>
+				<ExtendedTooltip name="КнопкаЗаполнитьУчастниковРасширеннаяПодсказка" id="12"/>
+			</Button>
+			<Button name="КнопкаРассчитатьМеста" id="2">
+				<Type>CommandBarButton</Type>
+				<Representation>Text</Representation>
+				<CommandName>Form.Command.РассчитатьМеста</CommandName>
+				<ExtendedTooltip name="КнопкаРассчитатьМестаРасширеннаяПодсказка" id="13"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="ОбъектМероприятие" id="3">
+			<DataPath>Объект.Мероприятие</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Мероприятие</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОбъектМероприятиеКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ОбъектМероприятиеРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<Table name="Результаты" id="4">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<DataPath>Объект.Результаты</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="РезультатыКонтекстноеМеню" id="16"/>
+			<AutoCommandBar name="ПанельТаблицы" id="5"/>
+			<ExtendedTooltip name="РезультатыРасширеннаяПодсказка" id="17"/>
+			<SearchStringAddition name="РезультатыСтрокаПоиска" id="18">
+				<AdditionSource>
+					<Item>Результаты</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РезультатыСтрокаПоискаКонтекстноеМеню" id="19"/>
+				<ExtendedTooltip name="РезультатыСтрокаПоискаРасширеннаяПодсказка" id="20"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="РезультатыСостояниеПросмотра" id="21">
+				<AdditionSource>
+					<Item>Результаты</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РезультатыСостояниеПросмотраКонтекстноеМеню" id="22"/>
+				<ExtendedTooltip name="РезультатыСостояниеПросмотраРасширеннаяПодсказка" id="23"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="РезультатыУправлениеПоиском" id="24">
+				<AdditionSource>
+					<Item>Результаты</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="РезультатыУправлениеПоискомКонтекстноеМеню" id="25"/>
+				<ExtendedTooltip name="РезультатыУправлениеПоискомРасширеннаяПодсказка" id="26"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ОбъектРезультатыУчастник" id="6">
+					<DataPath>Объект.Результаты.Участник</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Участник</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОбъектРезультатыУчастникКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ОбъектРезультатыУчастникРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ОбъектРезультатыРезультат" id="7">
+					<DataPath>Объект.Результаты.Результат</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Результат</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОбъектРезультатыРезультатКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ОбъектРезультатыРезультатРасширеннаяПодсказка" id="30"/>
+				</InputField>
+				<InputField name="ОбъектРезультатыМесто" id="8">
+					<DataPath>Объект.Результаты.Место</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Занятое место</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОбъектРезультатыМестоКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="ОбъектРезультатыМестоРасширеннаяПодсказка" id="32"/>
+				</InputField>
+				<InputField name="ОбъектРезультатыМестоВручную" id="9">
+					<DataPath>Объект.Результаты.МестоВручную</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ручное место</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОбъектРезультатыМестоВручнуюКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ОбъектРезультатыМестоВручнуюРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="ОбъектРезультатыПричина" id="10">
+					<DataPath>Объект.Результаты.Причина</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Причина корректировки</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОбъектРезультатыПричинаКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="ОбъектРезультатыПричинаРасширеннаяПодсказка" id="36"/>
+				</InputField>
+				<InputField name="ОбъектРезультатыПримечание" id="11">
+					<DataPath>Объект.Результаты.Примечание</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Примечание</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОбъектРезультатыПримечаниеКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="ОбъектРезультатыПримечаниеРасширеннаяПодсказка" id="38"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.Протокол</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьУчастников" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить участниками</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ЗаполнитьУчастников</Action>
+		</Command>
+		<Command name="РассчитатьМеста" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать места</v8:content>
+				</v8:item>
+			</Title>
+			<Action>РассчитатьМеста</Action>
+		</Command>
+	</Commands>
+</Form>

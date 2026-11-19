@@ -92,18 +92,18 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="cfcd448b-7edb-55f8-afb4-c670929ea77a">
+			<Attribute uuid="28037713-4077-556b-bfb3-eeb26975ea48">
 				<Properties>
-					<Name>Площадка</Name>
+					<Name>ВидСпорта</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Площадка</v8:content>
+							<v8:content>Вид спорта</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Площадки</v8:Type>
+						<v8:Type>cfg:CatalogRef.ВидыСпорта</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

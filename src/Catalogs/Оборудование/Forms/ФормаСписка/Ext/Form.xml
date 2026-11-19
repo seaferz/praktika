@@ -62,18 +62,18 @@
 					<ContextMenu name="СписокDescriptionКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="СписокDescriptionРасширеннаяПодсказка" id="18"/>
 				</InputField>
-				<InputField name="СписокПлощадка" id="4">
-					<DataPath>Список.Площадка</DataPath>
+				<InputField name="СписокВидСпорта" id="4">
+					<DataPath>Список.ВидСпорта</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Площадка</v8:content>
+							<v8:content>Вид спорта</v8:content>
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СписокПлощадкаКонтекстноеМеню" id="19"/>
-					<ExtendedTooltip name="СписокПлощадкаРасширеннаяПодсказка" id="20"/>
+					<ContextMenu name="СписокВидСпортаКонтекстноеМеню" id="19"/>
+					<ExtendedTooltip name="СписокВидСпортаРасширеннаяПодсказка" id="20"/>
 				</InputField>
 				<InputField name="СписокИнвентарныйНомер" id="5">
 					<DataPath>Список.ИнвентарныйНомер</DataPath>

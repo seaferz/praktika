@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Главная</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"><Autofill>false</Autofill></AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Документы" id="10">
+			<Group>HorizontalIfPossible</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ChildItems>
+				<Button name="НовоеМероприятие" id="7">
+					<Type>UsualButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<Representation>Text</Representation>
+					<CommandName>Form.Command.НовоеМероприятие</CommandName>
+				</Button>
+				<Button name="НоваяРегистрация" id="8">
+					<Type>UsualButton</Type>
+					<Representation>Text</Representation>
+					<CommandName>Form.Command.НоваяРегистрация</CommandName>
+				</Button>
+				<Button name="НовыйПротокол" id="9">
+					<Type>UsualButton</Type>
+					<Representation>Text</Representation>
+					<CommandName>Form.Command.НовыйПротокол</CommandName>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Отчеты" id="14">
+			<Group>HorizontalIfPossible</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ChildItems>
+				<Button name="Календарь" id="11">
+					<Type>Hyperlink</Type>
+					<Representation>Text</Representation>
+					<CommandName>Form.Command.Календарь</CommandName>
+				</Button>
+				<Button name="Загрузка" id="12">
+					<Type>Hyperlink</Type>
+					<Representation>Text</Representation>
+					<CommandName>Form.Command.Загрузка</CommandName>
+				</Button>
+				<Button name="Рейтинг" id="13">
+					<Type>Hyperlink</Type>
+					<Representation>Text</Representation>
+					<CommandName>Form.Command.Рейтинг</CommandName>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ШапкаРасписания" id="18">
+			<Group>HorizontalIfPossible</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ChildItems>
+				<LabelDecoration name="ЗаголовокРасписания" id="15">
+					<SkipOnInput>true</SkipOnInput>
+					<TextColor>web:DarkSlateGray</TextColor>
+					<Font ref="sys:DefaultGUIFont" faceName="Segoe UI" height="13" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Текущие и ближайшие мероприятия</v8:content>
+						</v8:item>
+					</Title>
+				</LabelDecoration>
+				<Button name="Обновить" id="16">
+					<Type>UsualButton</Type>
+					<Representation>Text</Representation>
+					<CommandName>Form.Command.Обновить</CommandName>
+				</Button>
+				<Button name="ОткрытьМероприятие" id="17">
+					<Type>UsualButton</Type>
+					<Representation>Text</Representation>
+					<CommandName>Form.Command.ОткрытьМероприятие</CommandName>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<LabelDecoration name="НетМероприятий" id="19">
+			<Visible>false</Visible>
+			<SkipOnInput>true</SkipOnInput>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>В расписании пока нет текущих и предстоящих мероприятий.</v8:content>
+				</v8:item>
+			</Title>
+		</LabelDecoration>
+		<Table name="Расписание" id="6">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<ReadOnly>true</ReadOnly>
+			<SelectionMode>SingleRow</SelectionMode>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<ChangeRowSet>false</ChangeRowSet>
+			<Height>8</Height>
+			<AutoMaxHeight>false</AutoMaxHeight>
+			<VerticalStretch>false</VerticalStretch>
+			<AlternationRowColor>true</AlternationRowColor>
+			<DataPath>Расписание</DataPath>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
+			<Events>
+				<Event name="Selection">РасписаниеВыбор</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="КолонкаНачало" id="1">
+					<DataPath>Расписание.Начало</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Начало</v8:content>
+						</v8:item>
+					</Title>
+					<Width>16</Width>
+					<Format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=&#x27;dd.MM.yyyy HH:mm&#x27;</v8:content>
+						</v8:item>
+					</Format>
+				</LabelField>
+				<LabelField name="КолонкаНазвание" id="2">
+					<DataPath>Расписание.Название</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Мероприятие</v8:content>
+						</v8:item>
+					</Title>
+					<Width>30</Width>
+				</LabelField>
+				<LabelField name="КолонкаПлощадка" id="3">
+					<DataPath>Расписание.Площадка</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Площадка</v8:content>
+						</v8:item>
+					</Title>
+					<Width>24</Width>
+				</LabelField>
+				<LabelField name="КолонкаВидСпорта" id="4">
+					<DataPath>Расписание.ВидСпорта</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид спорта</v8:content>
+						</v8:item>
+					</Title>
+					<Width>19</Width>
+				</LabelField>
+				<LabelField name="КолонкаСтатус" id="5">
+					<DataPath>Расписание.Статус</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус</v8:content>
+						</v8:item>
+					</Title>
+					<Width>17</Width>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Расписание" id="1">
+			<Type><v8:Type>v8:ValueTable</v8:Type></Type>
+			<Columns>
+				<Column name="Ссылка" id="1">
+					<Type><v8:Type>cfg:DocumentRef.Мероприятие</v8:Type></Type>
+				</Column>
+				<Column name="Начало" id="2">
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Название" id="3">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Площадка" id="4">
+					<Type>
+						<v8:Type>cfg:CatalogRef.Площадки</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ВидСпорта" id="5">
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыСпорта</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Статус" id="6">
+					<Type>
+						<v8:Type>cfg:EnumRef.СтатусыМероприятий</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="НовоеМероприятие" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать мероприятие</v8:content>
+				</v8:item>
+			</Title>
+			<Action>НовоеМероприятие</Action>
+		</Command>
+		<Command name="НоваяРегистрация" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зарегистрировать участников</v8:content>
+				</v8:item>
+			</Title>
+			<Action>НоваяРегистрация</Action>
+		</Command>
+		<Command name="НовыйПротокол" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ввести результаты</v8:content>
+				</v8:item>
+			</Title>
+			<Action>НовыйПротокол</Action>
+		</Command>
+		<Command name="Календарь" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Календарь соревнований</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Календарь</Action>
+		</Command>
+		<Command name="Загрузка" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузка площадок</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Загрузка</Action>
+		</Command>
+		<Command name="Рейтинг" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рейтинг спортсменов</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Рейтинг</Action>
+		</Command>
+		<Command name="Обновить" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить список</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Обновить</Action>
+		</Command>
+		<Command name="ОткрытьМероприятие" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть мероприятие</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ОткрытьМероприятие</Action>
+		</Command>
+	</Commands>
+</Form>

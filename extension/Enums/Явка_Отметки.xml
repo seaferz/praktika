@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+  <Enum uuid="23b550d0-57b9-5a10-bea0-9d5f1358055e">
+    <InternalInfo>
+      <xr:GeneratedType name="EnumRef.Явка_Отметки" category="Ref">
+        <xr:TypeId>c012b1dc-6f19-57fe-9b4b-1d2b9ca7c957</xr:TypeId>
+        <xr:ValueId>442aee94-9543-50b3-9e2b-8eb046eb83bd</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="EnumManager.Явка_Отметки" category="Manager">
+        <xr:TypeId>c7877562-5290-59ca-b1fd-b70ecf685bcd</xr:TypeId>
+        <xr:ValueId>3f69afc7-56f2-56a7-95b4-378266555f4c</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="EnumList.Явка_Отметки" category="List">
+        <xr:TypeId>868751ec-80da-5368-a626-838a94be990a</xr:TypeId>
+        <xr:ValueId>53e64ef5-00b2-5a1e-800c-6dbd84ec2546</xr:ValueId>
+      </xr:GeneratedType>
+    </InternalInfo>
+    <Properties>
+      <Name>Явка_Отметки</Name>
+      <Synonym>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Отметки явки</v8:content>
+        </v8:item>
+      </Synonym>
+      <Comment/>
+      <UseStandardCommands>false</UseStandardCommands>
+      <Characteristics/>
+      <QuickChoice>true</QuickChoice>
+      <ChoiceMode>BothWays</ChoiceMode>
+      <DefaultListForm/>
+      <DefaultChoiceForm/>
+      <AuxiliaryListForm/>
+      <AuxiliaryChoiceForm/>
+      <ListPresentation/>
+      <ExtendedListPresentation/>
+      <Explanation/>
+      <ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+    </Properties>
+    <ChildObjects>
+      <EnumValue uuid="5b431fd0-2f66-5ec8-99dc-a828c6e74db0">
+        <Properties>
+          <Name>Явился</Name>
+          <Synonym>
+            <v8:item>
+              <v8:lang>ru</v8:lang>
+              <v8:content>Явился</v8:content>
+            </v8:item>
+          </Synonym>
+          <Comment/>
+        </Properties>
+      </EnumValue>
+      <EnumValue uuid="d9ea06ba-7375-53d7-8a3b-1eac4b301ba0">
+        <Properties>
+          <Name>НеЯвился</Name>
+          <Synonym>
+            <v8:item>
+              <v8:lang>ru</v8:lang>
+              <v8:content>Не явился</v8:content>
+            </v8:item>
+          </Synonym>
+          <Comment/>
+        </Properties>
+      </EnumValue>
+    </ChildObjects>
+  </Enum>
+</MetaDataObject>

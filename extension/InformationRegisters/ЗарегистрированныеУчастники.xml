@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+  <InformationRegister uuid="ab3c3047-edcd-520e-91fd-ffe16c08efcc">
+    <InternalInfo>
+      <xr:GeneratedType name="InformationRegisterRecord.ЗарегистрированныеУчастники" category="Record">
+        <xr:TypeId>3fff3902-fac1-5f68-806a-c1b20ff3dba3</xr:TypeId>
+        <xr:ValueId>56c61ff5-c9bf-5f05-a5d4-33dd8fc8c3d5</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="InformationRegisterManager.ЗарегистрированныеУчастники" category="Manager">
+        <xr:TypeId>05900d61-0d0e-5384-9ca8-e1953355ca99</xr:TypeId>
+        <xr:ValueId>a1acf605-1ce9-5fd3-a0a9-dd8cbdb02ece</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="InformationRegisterSelection.ЗарегистрированныеУчастники" category="Selection">
+        <xr:TypeId>abc48297-1f42-5f0e-b67e-7f5d57de3810</xr:TypeId>
+        <xr:ValueId>dcfbf526-59e4-504e-a19c-5f4df0d1d34f</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="InformationRegisterList.ЗарегистрированныеУчастники" category="List">
+        <xr:TypeId>a219f696-b7b4-553f-acee-7576f45991dc</xr:TypeId>
+        <xr:ValueId>e7e2be45-66fc-5b24-b563-e81956d94100</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="InformationRegisterRecordSet.ЗарегистрированныеУчастники" category="RecordSet">
+        <xr:TypeId>aa6cd772-623d-58be-9ec2-b6b45ee51050</xr:TypeId>
+        <xr:ValueId>a087ac72-af69-5785-9dd7-6fc1248993ee</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="InformationRegisterRecordKey.ЗарегистрированныеУчастники" category="RecordKey">
+        <xr:TypeId>57ac1c05-772a-5271-833c-a3f606086ce0</xr:TypeId>
+        <xr:ValueId>91bb8a8e-9f59-5006-8850-ea45226604dc</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="InformationRegisterRecordManager.ЗарегистрированныеУчастники" category="RecordManager">
+        <xr:TypeId>56787e7e-a4ad-5dbd-bedd-97660b540e09</xr:TypeId>
+        <xr:ValueId>5e70d68b-2f50-5676-8ef5-5c07a5666ad4</xr:ValueId>
+      </xr:GeneratedType>
+    </InternalInfo>
+    <Properties>
+      <ObjectBelonging>Adopted</ObjectBelonging>
+      <Name>ЗарегистрированныеУчастники</Name>
+      <Comment/>
+      <ExtendedConfigurationObject>3d61c3d9-0d1d-5038-8f5f-8fad0c79a325</ExtendedConfigurationObject>
+    </Properties>
+    <ChildObjects/>
+  </InformationRegister>
+</MetaDataObject>

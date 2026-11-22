@@ -1,207 +1,248 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Title>
-		<v8:item>
-			<v8:lang>ru</v8:lang>
-			<v8:content>Календарь спортивных мероприятий</v8:content>
-		</v8:item>
-	</Title>
-	<AutoTitle>false</AutoTitle>
-	<ReportFormType>Main</ReportFormType>
-	<AutoShowState>Auto</AutoShowState>
-	<ReportResultViewMode>Auto</ReportResultViewMode>
-	<ViewModeApplicationOnSetReportResult>Auto</ViewModeApplicationOnSetReportResult>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
-		<Autofill>false</Autofill>
-		<ChildItems>
-			<Button name="КнопкаСформировать" id="1">
-				<Type>CommandBarButton</Type>
-				<Representation>Text</Representation>
-				<CommandName>Form.Command.Сформировать</CommandName>
-				<ExtendedTooltip name="КнопкаСформироватьРасширеннаяПодсказка" id="9"/>
-			</Button>
-		</ChildItems>
-	</AutoCommandBar>
-	<Events>
-		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
-	</Events>
-	<ChildItems>
-		<InputField name="НачалоПериода" id="2">
-			<DataPath>НачалоПериода</DataPath>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Начало периода</v8:content>
-				</v8:item>
-			</Title>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="НачалоПериодаКонтекстноеМеню" id="10"/>
-			<ExtendedTooltip name="НачалоПериодаРасширеннаяПодсказка" id="11"/>
-		</InputField>
-		<InputField name="КонецПериода" id="3">
-			<DataPath>КонецПериода</DataPath>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Конец периода</v8:content>
-				</v8:item>
-			</Title>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="КонецПериодаКонтекстноеМеню" id="12"/>
-			<ExtendedTooltip name="КонецПериодаРасширеннаяПодсказка" id="13"/>
-		</InputField>
-		<InputField name="СпортивныйОбъект" id="4">
-			<DataPath>СпортивныйОбъект</DataPath>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Спортивный объект</v8:content>
-				</v8:item>
-			</Title>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="СпортивныйОбъектКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="СпортивныйОбъектРасширеннаяПодсказка" id="15"/>
-		</InputField>
-		<InputField name="Площадка" id="5">
-			<DataPath>Площадка</DataPath>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Площадка</v8:content>
-				</v8:item>
-			</Title>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="ПлощадкаКонтекстноеМеню" id="16"/>
-			<ExtendedTooltip name="ПлощадкаРасширеннаяПодсказка" id="17"/>
-		</InputField>
-		<InputField name="ВидСпорта" id="6">
-			<DataPath>ВидСпорта</DataPath>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Вид спорта</v8:content>
-				</v8:item>
-			</Title>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="ВидСпортаКонтекстноеМеню" id="18"/>
-			<ExtendedTooltip name="ВидСпортаРасширеннаяПодсказка" id="19"/>
-		</InputField>
-		<InputField name="Статус" id="7">
-			<DataPath>Статус</DataPath>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Статус</v8:content>
-				</v8:item>
-			</Title>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="СтатусКонтекстноеМеню" id="20"/>
-			<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="21"/>
-		</InputField>
-		<SpreadSheetDocumentField name="РезультатОтчета" id="8">
-			<DataPath>РезультатОтчета</DataPath>
-			<ReadOnly>true</ReadOnly>
-			<TitleLocation>None</TitleLocation>
-			<Height>18</Height>
-			<ContextMenu name="РезультатОтчетаКонтекстноеМеню" id="22"/>
-			<ExtendedTooltip name="РезультатОтчетаРасширеннаяПодсказка" id="23"/>
-		</SpreadSheetDocumentField>
-	</ChildItems>
-	<Attributes>
-		<Attribute name="Объект" id="1">
-			<Type>
-				<v8:Type>cfg:ReportObject.Календарь</v8:Type>
-			</Type>
-			<MainAttribute>true</MainAttribute>
-			<SavedData>true</SavedData>
-		</Attribute>
-		<Attribute name="НачалоПериода" id="2">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Начало периода</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:dateTime</v8:Type>
-				<v8:DateQualifiers>
-					<v8:DateFractions>Date</v8:DateFractions>
-				</v8:DateQualifiers>
-			</Type>
-		</Attribute>
-		<Attribute name="КонецПериода" id="3">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Конец периода</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:dateTime</v8:Type>
-				<v8:DateQualifiers>
-					<v8:DateFractions>Date</v8:DateFractions>
-				</v8:DateQualifiers>
-			</Type>
-		</Attribute>
-		<Attribute name="СпортивныйОбъект" id="4">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Спортивный объект</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>cfg:CatalogRef.СпортивныеОбъекты</v8:Type>
-			</Type>
-		</Attribute>
-		<Attribute name="Площадка" id="5">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Площадка</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>cfg:CatalogRef.Площадки</v8:Type>
-			</Type>
-		</Attribute>
-		<Attribute name="ВидСпорта" id="6">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Вид спорта</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>cfg:CatalogRef.ВидыСпорта</v8:Type>
-			</Type>
-		</Attribute>
-		<Attribute name="Статус" id="7">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Статус</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>cfg:EnumRef.СтатусыМероприятий</v8:Type>
-			</Type>
-		</Attribute>
-		<Attribute name="РезультатОтчета" id="8">
-			<Type>
-				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
-			</Type>
-		</Attribute>
-	</Attributes>
-	<Commands>
-		<Command name="Сформировать" id="1">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Сформировать</v8:content>
-				</v8:item>
-			</Title>
-			<Action>Сформировать</Action>
-		</Command>
-	</Commands>
+  <Title>
+    <v8:item>
+      <v8:lang>ru</v8:lang>
+      <v8:content>Календарь спортивных мероприятий</v8:content>
+    </v8:item>
+  </Title>
+  <AutoTitle>false</AutoTitle>
+  <ReportFormType>Main</ReportFormType>
+  <AutoShowState>Auto</AutoShowState>
+  <ReportResultViewMode>Auto</ReportResultViewMode>
+  <ViewModeApplicationOnSetReportResult>Auto</ViewModeApplicationOnSetReportResult>
+  <AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+    <Autofill>false</Autofill>
+    <ChildItems>
+      <Button name="КнопкаСформировать" id="1">
+        <Type>CommandBarButton</Type>
+        <Representation>Text</Representation>
+        <CommandName>Form.Command.Сформировать</CommandName>
+        <ExtendedTooltip name="КнопкаСформироватьРасширеннаяПодсказка" id="9"/>
+      </Button>
+      <Button name="КнопкаТаблица" id="110">
+        <Type>CommandBarButton</Type>
+        <Representation>Text</Representation>
+        <CommandName>Form.Command.ПоказатьТаблица</CommandName>
+      </Button>
+      <Button name="КнопкаДиаграмма" id="111">
+        <Type>CommandBarButton</Type>
+        <Representation>Text</Representation>
+        <CommandName>Form.Command.ПоказатьДиаграмма</CommandName>
+      </Button>
+    </ChildItems>
+  </AutoCommandBar>
+  <Events>
+    <Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+  </Events>
+  <ChildItems>
+    <InputField name="НачалоПериода" id="2">
+      <DataPath>НачалоПериода</DataPath>
+      <Title>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Начало периода</v8:content>
+        </v8:item>
+      </Title>
+      <EditMode>EnterOnInput</EditMode>
+      <ContextMenu name="НачалоПериодаКонтекстноеМеню" id="10"/>
+      <ExtendedTooltip name="НачалоПериодаРасширеннаяПодсказка" id="11"/>
+    </InputField>
+    <InputField name="КонецПериода" id="3">
+      <DataPath>КонецПериода</DataPath>
+      <Title>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Конец периода</v8:content>
+        </v8:item>
+      </Title>
+      <EditMode>EnterOnInput</EditMode>
+      <ContextMenu name="КонецПериодаКонтекстноеМеню" id="12"/>
+      <ExtendedTooltip name="КонецПериодаРасширеннаяПодсказка" id="13"/>
+    </InputField>
+    <InputField name="СпортивныйОбъект" id="4">
+      <DataPath>СпортивныйОбъект</DataPath>
+      <Title>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Спортивный объект</v8:content>
+        </v8:item>
+      </Title>
+      <EditMode>EnterOnInput</EditMode>
+      <ContextMenu name="СпортивныйОбъектКонтекстноеМеню" id="14"/>
+      <ExtendedTooltip name="СпортивныйОбъектРасширеннаяПодсказка" id="15"/>
+    </InputField>
+    <InputField name="Площадка" id="5">
+      <DataPath>Площадка</DataPath>
+      <Title>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Площадка</v8:content>
+        </v8:item>
+      </Title>
+      <EditMode>EnterOnInput</EditMode>
+      <ContextMenu name="ПлощадкаКонтекстноеМеню" id="16"/>
+      <ExtendedTooltip name="ПлощадкаРасширеннаяПодсказка" id="17"/>
+    </InputField>
+    <InputField name="ВидСпорта" id="6">
+      <DataPath>ВидСпорта</DataPath>
+      <Title>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Вид спорта</v8:content>
+        </v8:item>
+      </Title>
+      <EditMode>EnterOnInput</EditMode>
+      <ContextMenu name="ВидСпортаКонтекстноеМеню" id="18"/>
+      <ExtendedTooltip name="ВидСпортаРасширеннаяПодсказка" id="19"/>
+    </InputField>
+    <InputField name="Статус" id="7">
+      <DataPath>Статус</DataPath>
+      <Title>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Статус</v8:content>
+        </v8:item>
+      </Title>
+      <EditMode>EnterOnInput</EditMode>
+      <ContextMenu name="СтатусКонтекстноеМеню" id="20"/>
+      <ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="21"/>
+    </InputField>
+    <SpreadSheetDocumentField name="РезультатОтчета" id="8">
+      <DataPath>РезультатОтчета</DataPath>
+      <ReadOnly>true</ReadOnly>
+      <TitleLocation>None</TitleLocation>
+      <Height>18</Height>
+      <ContextMenu name="РезультатОтчетаКонтекстноеМеню" id="22"/>
+      <ExtendedTooltip name="РезультатОтчетаРасширеннаяПодсказка" id="23"/>
+    </SpreadSheetDocumentField>
+    <ChartField name="ДиаграммаОтчета" id="112">
+      <DataPath>ДиаграммаОтчета</DataPath>
+      <Visible>false</Visible>
+      <TitleLocation>None</TitleLocation>
+      <Height>18</Height>
+      <HorizontalStretch>true</HorizontalStretch>
+      <VerticalStretch>true</VerticalStretch>
+    </ChartField>
+  </ChildItems>
+  <Attributes>
+    <Attribute name="Объект" id="1">
+      <Type>
+        <v8:Type>cfg:ReportObject.Календарь</v8:Type>
+      </Type>
+      <MainAttribute>true</MainAttribute>
+      <SavedData>true</SavedData>
+    </Attribute>
+    <Attribute name="НачалоПериода" id="2">
+      <Title>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Начало периода</v8:content>
+        </v8:item>
+      </Title>
+      <Type>
+        <v8:Type>xs:dateTime</v8:Type>
+        <v8:DateQualifiers>
+          <v8:DateFractions>Date</v8:DateFractions>
+        </v8:DateQualifiers>
+      </Type>
+    </Attribute>
+    <Attribute name="КонецПериода" id="3">
+      <Title>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Конец периода</v8:content>
+        </v8:item>
+      </Title>
+      <Type>
+        <v8:Type>xs:dateTime</v8:Type>
+        <v8:DateQualifiers>
+          <v8:DateFractions>Date</v8:DateFractions>
+        </v8:DateQualifiers>
+      </Type>
+    </Attribute>
+    <Attribute name="СпортивныйОбъект" id="4">
+      <Title>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Спортивный объект</v8:content>
+        </v8:item>
+      </Title>
+      <Type>
+        <v8:Type>cfg:CatalogRef.СпортивныеОбъекты</v8:Type>
+      </Type>
+    </Attribute>
+    <Attribute name="Площадка" id="5">
+      <Title>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Площадка</v8:content>
+        </v8:item>
+      </Title>
+      <Type>
+        <v8:Type>cfg:CatalogRef.Площадки</v8:Type>
+      </Type>
+    </Attribute>
+    <Attribute name="ВидСпорта" id="6">
+      <Title>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Вид спорта</v8:content>
+        </v8:item>
+      </Title>
+      <Type>
+        <v8:Type>cfg:CatalogRef.ВидыСпорта</v8:Type>
+      </Type>
+    </Attribute>
+    <Attribute name="Статус" id="7">
+      <Title>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Статус</v8:content>
+        </v8:item>
+      </Title>
+      <Type>
+        <v8:Type>cfg:EnumRef.СтатусыМероприятий</v8:Type>
+      </Type>
+    </Attribute>
+    <Attribute name="РезультатОтчета" id="8">
+      <Type>
+        <v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+      </Type>
+    </Attribute>
+    <Attribute name="ДиаграммаОтчета" id="110">
+      <Type>
+        <v8:Type xmlns:ch="http://v8.1c.ru/8.2/data/chart">ch:Chart</v8:Type>
+      </Type>
+    </Attribute>
+  </Attributes>
+  <Commands>
+    <Command name="Сформировать" id="1">
+      <Title>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Сформировать</v8:content>
+        </v8:item>
+      </Title>
+      <Action>Сформировать</Action>
+    </Command>
+    <Command name="ПоказатьТаблица" id="110">
+      <Title>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Таблица</v8:content>
+        </v8:item>
+      </Title>
+      <Action>ПоказатьТаблица</Action>
+    </Command>
+    <Command name="ПоказатьДиаграмма" id="111">
+      <Title>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Диаграмма</v8:content>
+        </v8:item>
+      </Title>
+      <Action>ПоказатьДиаграмма</Action>
+    </Command>
+  </Commands>
 </Form>

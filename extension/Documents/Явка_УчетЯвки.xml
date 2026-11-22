@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+  <Document uuid="193c2cb5-db39-5276-b9d4-ba78e19cf327">
+    <InternalInfo>
+      <xr:GeneratedType name="DocumentObject.Явка_УчетЯвки" category="Object">
+        <xr:TypeId>e409b93d-fd07-57ce-8ada-5e5ce26e019e</xr:TypeId>
+        <xr:ValueId>6dbb7e14-52d5-501d-8cad-23017f04489e</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="DocumentRef.Явка_УчетЯвки" category="Ref">
+        <xr:TypeId>e7c28f7d-61ad-549f-97cb-9477c06a0fa4</xr:TypeId>
+        <xr:ValueId>bfe5573b-fa64-5de6-8bb5-98d505636329</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="DocumentSelection.Явка_УчетЯвки" category="Selection">
+        <xr:TypeId>949f3db5-c086-5244-8f24-a6ccab36454c</xr:TypeId>
+        <xr:ValueId>9d512492-c9fa-53d9-bb89-9897e5b340de</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="DocumentList.Явка_УчетЯвки" category="List">
+        <xr:TypeId>52a57b4f-fdc9-5612-9a9c-052e67dd4cf4</xr:TypeId>
+        <xr:ValueId>7b572dbd-0d15-5b9e-bc70-4293203d21a1</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="DocumentManager.Явка_УчетЯвки" category="Manager">
+        <xr:TypeId>873faefd-5e10-5cab-97e7-85d568cc2b5f</xr:TypeId>
+        <xr:ValueId>60b4aa14-79b7-5c18-b384-f71007e92a62</xr:ValueId>
+      </xr:GeneratedType>
+    </InternalInfo>
+    <Properties>
+      <Name>Явка_УчетЯвки</Name>
+      <Synonym>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Учет явки участников</v8:content>
+        </v8:item>
+      </Synonym>
+      <Comment/>
+      <UseStandardCommands>true</UseStandardCommands>
+      <Numerator/>
+      <NumberType>String</NumberType>
+      <NumberLength>9</NumberLength>
+      <NumberAllowedLength>Variable</NumberAllowedLength>
+      <NumberPeriodicity>Nonperiodical</NumberPeriodicity>
+      <CheckUnique>true</CheckUnique>
+      <Autonumbering>true</Autonumbering>
+      <Characteristics/>
+      <BasedOn/>
+      <InputByString>
+        <xr:Field>Document.Явка_УчетЯвки.StandardAttribute.Number</xr:Field>
+      </InputByString>
+      <CreateOnInput>Use</CreateOnInput>
+      <SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
+      <FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+      <ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+      <DefaultObjectForm>Document.Явка_УчетЯвки.Form.ФормаДокумента</DefaultObjectForm>
+      <DefaultListForm>Document.Явка_УчетЯвки.Form.ФормаСписка</DefaultListForm>
+      <DefaultChoiceForm/>
+      <AuxiliaryObjectForm/>
+      <AuxiliaryListForm/>
+      <AuxiliaryChoiceForm/>
+      <Posting>Allow</Posting>
+      <RealTimePosting>Deny</RealTimePosting>
+      <RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
+      <RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
+      <SequenceFilling>AutoFill</SequenceFilling>
+      <RegisterRecords>
+        <xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Явка_ОтметкиУчастников</xr:Item>
+      </RegisterRecords>
+      <PostInPrivilegedMode>false</PostInPrivilegedMode>
+      <UnpostInPrivilegedMode>false</UnpostInPrivilegedMode>
+      <IncludeHelpInContents>false</IncludeHelpInContents>
+      <DataLockFields/>
+      <DataLockControlMode>Managed</DataLockControlMode>
+      <FullTextSearch>Use</FullTextSearch>
+      <ObjectPresentation>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Учет явки участников</v8:content>
+        </v8:item>
+      </ObjectPresentation>
+      <ExtendedObjectPresentation/>
+      <ListPresentation>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Документы учета явки</v8:content>
+        </v8:item>
+      </ListPresentation>
+      <ExtendedListPresentation/>
+      <Explanation/>
+      <ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+      <DataHistory>DontUse</DataHistory>
+      <UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+      <ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+    </Properties>
+    <ChildObjects>
+      <Attribute uuid="548c5f34-1365-54b0-93e5-2b35c45b0d47">
+        <Properties>
+          <Name>Мероприятие</Name>
+          <Synonym>
+            <v8:item>
+              <v8:lang>ru</v8:lang>
+              <v8:content>Мероприятие</v8:content>
+            </v8:item>
+          </Synonym>
+          <Comment/>
+          <Type>
+            <v8:Type>cfg:DocumentRef.Мероприятие</v8:Type>
+          </Type>
+          <PasswordMode>false</PasswordMode>
+          <Format/>
+          <EditFormat/>
+          <ToolTip/>
+          <MarkNegatives>false</MarkNegatives>
+          <Mask/>
+          <MultiLine>false</MultiLine>
+          <ExtendedEdit>false</ExtendedEdit>
+          <MinValue xsi:nil="true"/>
+          <MaxValue xsi:nil="true"/>
+          <FillFromFillingValue>false</FillFromFillingValue>
+          <FillValue xsi:nil="true"/>
+          <FillChecking>DontCheck</FillChecking>
+          <ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+          <ChoiceParameterLinks/>
+          <ChoiceParameters/>
+          <QuickChoice>Auto</QuickChoice>
+          <CreateOnInput>Auto</CreateOnInput>
+          <ChoiceForm/>
+          <LinkByType/>
+          <ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+          <Indexing>Index</Indexing>
+          <FullTextSearch>Use</FullTextSearch>
+          <DataHistory>Use</DataHistory>
+        </Properties>
+      </Attribute>
+      <Form>ФормаДокумента</Form>
+      <Form>ФормаСписка</Form>
+      <TabularSection uuid="f1ccf589-8d29-59f2-8388-eca250c66b61">
+        <InternalInfo>
+          <xr:GeneratedType name="DocumentTabularSection.Явка_УчетЯвки.Участники" category="TabularSection">
+            <xr:TypeId>edc46a96-9f72-59c4-914c-dc30fda2dfff</xr:TypeId>
+            <xr:ValueId>171c705b-4251-583a-8b1a-79e6dcda3997</xr:ValueId>
+          </xr:GeneratedType>
+          <xr:GeneratedType name="DocumentTabularSectionRow.Явка_УчетЯвки.Участники" category="TabularSectionRow">
+            <xr:TypeId>a59d4ac2-372b-586c-8df6-babea9d9f8a0</xr:TypeId>
+            <xr:ValueId>d41dc04a-5153-586e-b9c6-86c1d625375c</xr:ValueId>
+          </xr:GeneratedType>
+        </InternalInfo>
+        <Properties>
+          <Name>Участники</Name>
+          <Synonym>
+            <v8:item>
+              <v8:lang>ru</v8:lang>
+              <v8:content>Участники</v8:content>
+            </v8:item>
+          </Synonym>
+          <Comment/>
+          <ToolTip/>
+          <FillChecking>ShowError</FillChecking>
+          <LineNumberLength>5</LineNumberLength>
+        </Properties>
+        <ChildObjects>
+          <Attribute uuid="7a5dbdde-5513-5346-bca2-4a1da95847e1">
+            <Properties>
+              <Name>Участник</Name>
+              <Synonym>
+                <v8:item>
+                  <v8:lang>ru</v8:lang>
+                  <v8:content>Участник</v8:content>
+                </v8:item>
+              </Synonym>
+              <Comment/>
+              <Type>
+                <v8:Type>cfg:CatalogRef.Команды</v8:Type>
+                <v8:Type>cfg:CatalogRef.Спортсмены</v8:Type>
+              </Type>
+              <PasswordMode>false</PasswordMode>
+              <Format/>
+              <EditFormat/>
+              <ToolTip/>
+              <MarkNegatives>false</MarkNegatives>
+              <Mask/>
+              <MultiLine>false</MultiLine>
+              <ExtendedEdit>false</ExtendedEdit>
+              <MinValue xsi:nil="true"/>
+              <MaxValue xsi:nil="true"/>
+              <FillChecking>DontCheck</FillChecking>
+              <ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+              <ChoiceParameterLinks/>
+              <ChoiceParameters/>
+              <QuickChoice>Auto</QuickChoice>
+              <CreateOnInput>Auto</CreateOnInput>
+              <ChoiceForm/>
+              <LinkByType/>
+              <ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+              <Indexing>DontIndex</Indexing>
+              <FullTextSearch>Use</FullTextSearch>
+              <DataHistory>Use</DataHistory>
+            </Properties>
+          </Attribute>
+          <Attribute uuid="d3f1428d-62da-5e6a-b4d7-d6d6b03604d4">
+            <Properties>
+              <Name>Отметка</Name>
+              <Synonym>
+                <v8:item>
+                  <v8:lang>ru</v8:lang>
+                  <v8:content>Отметка</v8:content>
+                </v8:item>
+              </Synonym>
+              <Comment/>
+              <Type>
+                <v8:Type>cfg:EnumRef.Явка_Отметки</v8:Type>
+              </Type>
+              <PasswordMode>false</PasswordMode>
+              <Format/>
+              <EditFormat/>
+              <ToolTip/>
+              <MarkNegatives>false</MarkNegatives>
+              <Mask/>
+              <MultiLine>false</MultiLine>
+              <ExtendedEdit>false</ExtendedEdit>
+              <MinValue xsi:nil="true"/>
+              <MaxValue xsi:nil="true"/>
+              <FillChecking>DontCheck</FillChecking>
+              <ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+              <ChoiceParameterLinks/>
+              <ChoiceParameters/>
+              <QuickChoice>Auto</QuickChoice>
+              <CreateOnInput>Auto</CreateOnInput>
+              <ChoiceForm/>
+              <LinkByType/>
+              <ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+              <Indexing>DontIndex</Indexing>
+              <FullTextSearch>Use</FullTextSearch>
+              <DataHistory>Use</DataHistory>
+            </Properties>
+          </Attribute>
+        </ChildObjects>
+      </TabularSection>
+    </ChildObjects>
+  </Document>
+</MetaDataObject>

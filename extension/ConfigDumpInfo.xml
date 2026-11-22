@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.Команды" id="0d056709-0a02-57d0-a64d-10982645f43a" configVersion="e12e56b4f4dc10b7f0ec366297a29c2ca6947fc6"/>
+		<Metadata name="Catalog.Спортсмены" id="37a2944a-750b-5518-886c-c59f348ecdb9" configVersion="4ee099ecd199ec65e3531568ac04b40cb175e8c9"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="028a64e4-fc29-518d-b337-0b08bc4dd7ed" configVersion="8dc5bd5c6481b286d8c6a12a764a6fa75c04342e"/>
+		<Metadata name="CommonModule.СпортивныеПравила" id="2bc2c0a0-d1e6-5cb1-b010-81c7e24bfb55" configVersion="28d4c97480f534023a95d465580c06dbc0b99ad8"/>
+		<Metadata name="CommonModule.Явка_Правила" id="c37a2373-3abd-54b3-b39c-80d59032effe" configVersion="75e0eb7cea3cc03321883e061646ec743c8983a3"/>
+		<Metadata name="CommonModule.Явка_Правила.Module" id="c37a2373-3abd-54b3-b39c-80d59032effe.0" configVersion="244ffa71bef1bc3fab0ebf2edac1f5db3203a2a1"/>
+		<Metadata name="Configuration.УчетЯвки" id="7545abb5-78b3-5a8b-af4b-4fedbc05d070" configVersion="33708b084eda11594b84e9025ce8027865a44a35"/>
+		<Metadata name="Document.Мероприятие" id="da0318a6-a360-5ad3-a753-283e7eda75d4" configVersion="a51bbaa57f95a6d22b7fde14e5d9108633783082"/>
+		<Metadata name="Document.Явка_УчетЯвки" id="193c2cb5-db39-5276-b9d4-ba78e19cf327" configVersion="76f0f67664a1033b0d0dd90523782f41b894bfb2">
+			<Metadata name="Document.Явка_УчетЯвки.Attribute.Мероприятие" id="548c5f34-1365-54b0-93e5-2b35c45b0d47"/>
+			<Metadata name="Document.Явка_УчетЯвки.TabularSection.Участники.Attribute.Участник" id="7a5dbdde-5513-5346-bca2-4a1da95847e1"/>
+			<Metadata name="Document.Явка_УчетЯвки.TabularSection.Участники.Attribute.Отметка" id="d3f1428d-62da-5e6a-b4d7-d6d6b03604d4"/>
+			<Metadata name="Document.Явка_УчетЯвки.TabularSection.Участники" id="f1ccf589-8d29-59f2-8388-eca250c66b61"/>
+		</Metadata>
+		<Metadata name="Document.Явка_УчетЯвки.Form.ФормаДокумента" id="957854c1-5dd9-5af4-beb5-a242cd53c7c5" configVersion="4c1976eabe89f1c477e8ac81066e6b5bedcc1902"/>
+		<Metadata name="Document.Явка_УчетЯвки.Form.ФормаДокумента.Form" id="957854c1-5dd9-5af4-beb5-a242cd53c7c5.0" configVersion="48377dc5ecc42b2003b726df588897255ffee667"/>
+		<Metadata name="Document.Явка_УчетЯвки.Form.ФормаСписка" id="343332f5-4ca8-5c27-b4a8-07437f06080a" configVersion="2831502fd3d55a300a298d1b3faca218199c0f00"/>
+		<Metadata name="Document.Явка_УчетЯвки.Form.ФормаСписка.Form" id="343332f5-4ca8-5c27-b4a8-07437f06080a.0" configVersion="ccbb65db66b1ac21e301c9408ac468c8e2892572"/>
+		<Metadata name="Document.Явка_УчетЯвки.ObjectModule" id="193c2cb5-db39-5276-b9d4-ba78e19cf327.0" configVersion="a4960c793290f90681baed3400c0974d2b0534f8"/>
+		<Metadata name="Enum.СтатусыМероприятий" id="a14aa07f-2d42-5e00-a581-7fd255b352ba" configVersion="b571e666a4c6579da5be821f676ea4c714ab9f0b">
+			<Metadata name="Enum.СтатусыМероприятий.EnumValue.Отменено" id="27aef7fb-729f-4901-b13c-14cf22c280e6"/>
+		</Metadata>
+		<Metadata name="Enum.Явка_Отметки" id="23b550d0-57b9-5a10-bea0-9d5f1358055e" configVersion="0feb2c4f84ce7262a32bdb3ee74a558304209a35">
+			<Metadata name="Enum.Явка_Отметки.EnumValue.Явился" id="5b431fd0-2f66-5ec8-99dc-a828c6e74db0"/>
+			<Metadata name="Enum.Явка_Отметки.EnumValue.НеЯвился" id="d9ea06ba-7375-53d7-8a3b-1eac4b301ba0"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЗарегистрированныеУчастники" id="ab3c3047-edcd-520e-91fd-ffe16c08efcc" configVersion="ee8f6e87bdee6fd9f0fee65d6823f560111ee318"/>
+		<Metadata name="InformationRegister.Явка_ОтметкиУчастников" id="71fb376e-18e1-57ec-b661-f90cf4553304" configVersion="fab68e18679d7ad60edcd4eb89b953ec233abba4">
+			<Metadata name="InformationRegister.Явка_ОтметкиУчастников.Dimension.Мероприятие" id="3b945af2-ae04-5acb-9bc2-7a15392e0d91"/>
+			<Metadata name="InformationRegister.Явка_ОтметкиУчастников.Dimension.Участник" id="459fb3b6-1e8f-5db5-87d1-82a7ba4cd13c"/>
+			<Metadata name="InformationRegister.Явка_ОтметкиУчастников.Resource.Отметка" id="f079986c-76d6-5d18-b527-40bf2ebde55b"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="240c1d64-bce5-537a-938f-2e850fb58da8" configVersion="a479f447313895c1715e4ff36091db0ec78426ca"/>
+		<Metadata name="Report.Явка_АнализЯвки" id="b051cdc0-3b92-5970-89de-20a2c717661f" configVersion="9583cbcdba7110e116cb9d6ccade092cad693c62"/>
+		<Metadata name="Report.Явка_АнализЯвки.Form.ФормаОтчета" id="9c7738a6-4200-5a53-9a7d-b74b37d89f66" configVersion="a44c146c2969c0f3d0c5668aded2f7a6f8e938c4"/>
+		<Metadata name="Report.Явка_АнализЯвки.Form.ФормаОтчета.Form" id="9c7738a6-4200-5a53-9a7d-b74b37d89f66.0" configVersion="80e06073f07db4f8555c3c5cfce06c54ee731978"/>
+		<Metadata name="Role.Явка_Просмотр" id="2e5baff4-ed98-5098-a11a-eefe1601bde2" configVersion="581866c0388b8b0dfb14d9c5c3493aeea608f7f8"/>
+		<Metadata name="Role.Явка_Просмотр.Rights" id="2e5baff4-ed98-5098-a11a-eefe1601bde2.0" configVersion="abd697ca584502553916b862c39bb543c81e1cfa"/>
+		<Metadata name="Role.Явка_Редактирование" id="3aa3bc21-faae-591c-80ff-40acb81fa672" configVersion="f063146977cac22c61c4aea012827cec3ea50276"/>
+		<Metadata name="Role.Явка_Редактирование.Rights" id="3aa3bc21-faae-591c-80ff-40acb81fa672.0" configVersion="c1793206cd8cd3ce05d8256c74ae57b4024a417c"/>
+		<Metadata name="Subsystem.Явка_Явка" id="aeb4d09c-2c94-532d-bb9a-8915921cfa40" configVersion="5f593f15d97bcdcd0d54810bdde49167c7c1379f"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

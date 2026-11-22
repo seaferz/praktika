@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+  <AutoTime>CurrentOrLast</AutoTime>
+  <UsePostingMode>Auto</UsePostingMode>
+  <RepostOnWrite>true</RepostOnWrite>
+  <AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+    <Autofill>true</Autofill>
+    <ChildItems>
+      <Button name="КнопкаЗаполнить" id="130">
+        <Type>CommandBarButton</Type>
+        <Representation>Text</Representation>
+        <CommandName>Form.Command.ЗаполнитьУчастников</CommandName>
+      </Button>
+    </ChildItems>
+  </AutoCommandBar>
+  <Events>
+    <Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+    <Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+  </Events>
+  <ChildItems>
+    <InputField name="ОбъектDate" id="1">
+      <DataPath>Объект.Date</DataPath>
+      <Title>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Дата учета</v8:content>
+        </v8:item>
+      </Title>
+      <EditMode>EnterOnInput</EditMode>
+      <ContextMenu name="ОбъектDateКонтекстноеМеню" id="6"/>
+      <ExtendedTooltip name="ОбъектDateРасширеннаяПодсказка" id="7"/>
+    </InputField>
+    <InputField name="ОбъектМероприятие" id="2">
+      <DataPath>Объект.Мероприятие</DataPath>
+      <Title>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Мероприятие</v8:content>
+        </v8:item>
+      </Title>
+      <EditMode>EnterOnInput</EditMode>
+      <ContextMenu name="ОбъектМероприятиеКонтекстноеМеню" id="8"/>
+      <ExtendedTooltip name="ОбъектМероприятиеРасширеннаяПодсказка" id="9"/>
+      <Events>
+        <Event name="OnChange">МероприятиеПриИзменении</Event>
+      </Events>
+    </InputField>
+    <Table name="Участники" id="3">
+      <Representation>List</Representation>
+      <AutoInsertNewRow>false</AutoInsertNewRow>
+      <DataPath>Объект.Участники</DataPath>
+      <RowFilter xsi:nil="true"/>
+      <ContextMenu name="УчастникиКонтекстноеМеню" id="10"/>
+      <AutoCommandBar name="ПанельТаблицы" id="4"/>
+      <ExtendedTooltip name="УчастникиРасширеннаяПодсказка" id="11"/>
+      <SearchStringAddition name="УчастникиСтрокаПоиска" id="12">
+        <AdditionSource>
+          <Item>Участники</Item>
+          <Type>SearchStringRepresentation</Type>
+        </AdditionSource>
+        <ContextMenu name="УчастникиСтрокаПоискаКонтекстноеМеню" id="13"/>
+        <ExtendedTooltip name="УчастникиСтрокаПоискаРасширеннаяПодсказка" id="14"/>
+      </SearchStringAddition>
+      <ViewStatusAddition name="УчастникиСостояниеПросмотра" id="15">
+        <AdditionSource>
+          <Item>Участники</Item>
+          <Type>ViewStatusRepresentation</Type>
+        </AdditionSource>
+        <ContextMenu name="УчастникиСостояниеПросмотраКонтекстноеМеню" id="16"/>
+        <ExtendedTooltip name="УчастникиСостояниеПросмотраРасширеннаяПодсказка" id="17"/>
+      </ViewStatusAddition>
+      <SearchControlAddition name="УчастникиУправлениеПоиском" id="18">
+        <AdditionSource>
+          <Item>Участники</Item>
+          <Type>SearchControl</Type>
+        </AdditionSource>
+        <ContextMenu name="УчастникиУправлениеПоискомКонтекстноеМеню" id="19"/>
+        <ExtendedTooltip name="УчастникиУправлениеПоискомРасширеннаяПодсказка" id="20"/>
+      </SearchControlAddition>
+      <ChildItems>
+        <LabelField name="ОбъектУчастникиУчастник" id="5">
+          <DataPath>Объект.Участники.Участник</DataPath>
+          <Title>
+            <v8:item>
+              <v8:lang>ru</v8:lang>
+              <v8:content>Участник</v8:content>
+            </v8:item>
+          </Title>
+          <ContextMenu name="ОбъектУчастникиУчастникКонтекстноеМеню" id="21"/>
+          <ExtendedTooltip name="ОбъектУчастникиУчастникРасширеннаяПодсказка" id="22"/>
+        </LabelField>
+        <InputField name="ОтметкаЯвки" id="131">
+          <DataPath>Объект.Участники.Отметка</DataPath>
+          <Title>
+            <v8:item>
+              <v8:lang>ru</v8:lang>
+              <v8:content>Отметка</v8:content>
+            </v8:item>
+          </Title>
+          <EditMode>EnterOnInput</EditMode>
+        </InputField>
+      </ChildItems>
+      <ChangeRowSet>false</ChangeRowSet>
+    </Table>
+  </ChildItems>
+  <Attributes>
+    <Attribute name="Объект" id="1">
+      <Type>
+        <v8:Type>cfg:DocumentObject.Явка_УчетЯвки</v8:Type>
+      </Type>
+      <MainAttribute>true</MainAttribute>
+      <SavedData>true</SavedData>
+    </Attribute>
+    <Attribute name="ПредыдущееМероприятие" id="100">
+      <Type>
+        <v8:Type>cfg:DocumentRef.Мероприятие</v8:Type>
+      </Type>
+    </Attribute>
+  </Attributes>
+  <Commands>
+    <Command name="ЗаполнитьУчастников" id="130">
+      <Title>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Заполнить участниками</v8:content>
+        </v8:item>
+      </Title>
+      <Action>ЗаполнитьУчастников</Action>
+    </Command>
+  </Commands>
+</Form>

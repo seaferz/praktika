@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+  <Document uuid="da0318a6-a360-5ad3-a753-283e7eda75d4">
+    <InternalInfo>
+      <xr:GeneratedType name="DocumentObject.Мероприятие" category="Object">
+        <xr:TypeId>5a1a71c2-2b48-56ce-9537-0cd939ae1f9a</xr:TypeId>
+        <xr:ValueId>51025205-e89e-5d7c-bf97-7dbe9b944c2b</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="DocumentRef.Мероприятие" category="Ref">
+        <xr:TypeId>ac58e394-0594-50d2-b101-08459280438b</xr:TypeId>
+        <xr:ValueId>e36adf6c-b712-5be4-b7f7-805ba0a01b85</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="DocumentSelection.Мероприятие" category="Selection">
+        <xr:TypeId>e3eaa182-e45a-5440-8b58-8674ff50a1e2</xr:TypeId>
+        <xr:ValueId>7ecc2548-4ef9-5c87-b802-80b88f3a23d0</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="DocumentList.Мероприятие" category="List">
+        <xr:TypeId>11196645-8f13-5555-8fcd-c121634237c5</xr:TypeId>
+        <xr:ValueId>7048a85f-8cc1-5886-be4f-574a2f872acc</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="DocumentManager.Мероприятие" category="Manager">
+        <xr:TypeId>94efd572-4332-5773-9dd4-d057445b3ec6</xr:TypeId>
+        <xr:ValueId>829d4c9f-8093-5a9f-8a37-de60644bf0d5</xr:ValueId>
+      </xr:GeneratedType>
+    </InternalInfo>
+    <Properties>
+      <ObjectBelonging>Adopted</ObjectBelonging>
+      <Name>Мероприятие</Name>
+      <Comment/>
+      <ExtendedConfigurationObject>8c0522ba-884c-51da-8075-230b185fa8d8</ExtendedConfigurationObject>
+    </Properties>
+    <ChildObjects/>
+  </Document>
+</MetaDataObject>

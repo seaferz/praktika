@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+  <Enum uuid="a14aa07f-2d42-5e00-a581-7fd255b352ba">
+    <InternalInfo>
+      <xr:GeneratedType name="EnumRef.СтатусыМероприятий" category="Ref">
+        <xr:TypeId>87a7ceb2-f299-54f7-8538-df357667f935</xr:TypeId>
+        <xr:ValueId>ea0bc33a-db05-5093-b65c-b72ac0a33f18</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="EnumManager.СтатусыМероприятий" category="Manager">
+        <xr:TypeId>827cc96f-0f42-523e-b11f-6f003c62ba2f</xr:TypeId>
+        <xr:ValueId>ee42b848-9a77-5c1e-b043-96b31592c808</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="EnumList.СтатусыМероприятий" category="List">
+        <xr:TypeId>789765e2-52b0-5dc3-b038-3d3d45bb90a9</xr:TypeId>
+        <xr:ValueId>bae18761-8ff0-5cbc-a038-91a71182eafe</xr:ValueId>
+      </xr:GeneratedType>
+    </InternalInfo>
+    <Properties>
+      <ObjectBelonging>Adopted</ObjectBelonging>
+      <Name>СтатусыМероприятий</Name>
+      <Comment/>
+      <ExtendedConfigurationObject>962c18aa-114a-5d93-9cba-59daf50ec894</ExtendedConfigurationObject>
+    </Properties>
+    <ChildObjects>
+      <EnumValue uuid="27aef7fb-729f-4901-b13c-14cf22c280e6">
+        <Properties>
+          <ObjectBelonging>Adopted</ObjectBelonging>
+          <Name>Отменено</Name>
+          <Comment/>
+          <ExtendedConfigurationObject>913f7da4-45bc-56c7-a0ba-c80dee75e1fe</ExtendedConfigurationObject>
+        </Properties>
+      </EnumValue>
+    </ChildObjects>
+  </Enum>
+</MetaDataObject>

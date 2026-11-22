@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+  <Catalog uuid="0d056709-0a02-57d0-a64d-10982645f43a">
+    <InternalInfo>
+      <xr:GeneratedType name="CatalogObject.Команды" category="Object">
+        <xr:TypeId>374fcdb4-23f4-5b7e-9c11-3887dd6009c2</xr:TypeId>
+        <xr:ValueId>95be3d7b-4b71-54c5-b4ae-5eb140876aba</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="CatalogRef.Команды" category="Ref">
+        <xr:TypeId>250db0f1-6f50-569c-9c72-bd39dbdff107</xr:TypeId>
+        <xr:ValueId>b21c5265-7812-5727-af3b-51f3668cecd3</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="CatalogSelection.Команды" category="Selection">
+        <xr:TypeId>52191490-b5d0-555d-89ec-b1cc313a7bb6</xr:TypeId>
+        <xr:ValueId>5f1ac97f-9fae-5989-a0ca-bd724155804f</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="CatalogList.Команды" category="List">
+        <xr:TypeId>07a9f2c3-ba98-580a-910b-e9582373e6d8</xr:TypeId>
+        <xr:ValueId>cba0ddc0-a8bf-56b0-9989-8a3d43ea6289</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="CatalogManager.Команды" category="Manager">
+        <xr:TypeId>775af759-46f1-52bc-b005-f9e46e564c71</xr:TypeId>
+        <xr:ValueId>fc246937-01f8-501f-8b96-8a36c1cbad44</xr:ValueId>
+      </xr:GeneratedType>
+    </InternalInfo>
+    <Properties>
+      <ObjectBelonging>Adopted</ObjectBelonging>
+      <Name>Команды</Name>
+      <Comment/>
+      <ExtendedConfigurationObject>8dc5880a-7705-5cb5-a59f-804b07583346</ExtendedConfigurationObject>
+    </Properties>
+    <ChildObjects/>
+  </Catalog>
+</MetaDataObject>

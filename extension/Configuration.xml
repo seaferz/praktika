@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+  <Configuration uuid="7545abb5-78b3-5a8b-af4b-4fedbc05d070">
+    <InternalInfo>
+      <xr:ContainedObject>
+        <xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
+        <xr:ObjectId>f0a13262-baea-576d-95f6-820176be594c</xr:ObjectId>
+      </xr:ContainedObject>
+      <xr:ContainedObject>
+        <xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
+        <xr:ObjectId>4d460be2-f187-59cd-a3ab-2bc3f6c7decb</xr:ObjectId>
+      </xr:ContainedObject>
+      <xr:ContainedObject>
+        <xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
+        <xr:ObjectId>be7496b8-ff57-5378-9f99-a66c6eca2260</xr:ObjectId>
+      </xr:ContainedObject>
+      <xr:ContainedObject>
+        <xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
+        <xr:ObjectId>d462c5ab-e614-516f-8cc9-bd382bf8920f</xr:ObjectId>
+      </xr:ContainedObject>
+      <xr:ContainedObject>
+        <xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
+        <xr:ObjectId>2efc3fb3-0473-555d-a06e-0ca73a8b9519</xr:ObjectId>
+      </xr:ContainedObject>
+      <xr:ContainedObject>
+        <xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
+        <xr:ObjectId>ad25aa2d-56dc-5969-8976-b952c617f6e0</xr:ObjectId>
+      </xr:ContainedObject>
+      <xr:ContainedObject>
+        <xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
+        <xr:ObjectId>19a6bdad-0086-5003-9b96-9bf76d2cb5fe</xr:ObjectId>
+      </xr:ContainedObject>
+    </InternalInfo>
+    <Properties>
+      <ObjectBelonging>Adopted</ObjectBelonging>
+      <Name>УчетЯвки</Name>
+      <Synonym>
+        <v8:item>
+          <v8:lang>ru</v8:lang>
+          <v8:content>Учет явки участников</v8:content>
+        </v8:item>
+      </Synonym>
+      <Comment/>
+      <ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
+      <KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
+      <NamePrefix>Явка_</NamePrefix>
+      <ConfigurationExtensionCompatibilityMode>Version8_3_27</ConfigurationExtensionCompatibilityMode>
+      <ScriptVariant>Russian</ScriptVariant>
+      <Vendor>Учебная практика</Vendor>
+      <Version>1.0.0</Version>
+      <DefaultLanguage>Language.Русский</DefaultLanguage>
+      <BriefInformation/>
+      <DetailedInformation/>
+      <Copyright/>
+      <VendorInformationAddress/>
+      <ConfigurationInformationAddress/>
+    </Properties>
+    <ChildObjects>
+      <Language>Русский</Language>
+      <Catalog>Спортсмены</Catalog>
+      <Catalog>Команды</Catalog>
+      <Document>Мероприятие</Document>
+      <Enum>СтатусыМероприятий</Enum>
+      <InformationRegister>ЗарегистрированныеУчастники</InformationRegister>
+      <CommonModule>СпортивныеПравила</CommonModule>
+      <CommonModule>ОбщегоНазначенияКлиентСервер</CommonModule>
+      <Subsystem>Явка_Явка</Subsystem>
+      <Document>Явка_УчетЯвки</Document>
+      <Report>Явка_АнализЯвки</Report>
+      <InformationRegister>Явка_ОтметкиУчастников</InformationRegister>
+      <Enum>Явка_Отметки</Enum>
+      <CommonModule>Явка_Правила</CommonModule>
+      <Role>Явка_Редактирование</Role>
+      <Role>Явка_Просмотр</Role>
+    </ChildObjects>
+  </Configuration>
+</MetaDataObject>

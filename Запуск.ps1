@@ -36,6 +36,9 @@ $base = [IO.Path]::GetFullPath($BasePath)
 $dt = Join-Path $root 'Поставка\Спортивные мероприятия.dt'
 $cf = Join-Path $root 'Поставка\Спортивные мероприятия.cf'
 $src = Join-Path $root 'src'
+$extensionName = 'УчетЯвки'
+$extensionSource = Join-Path $root 'extension'
+$cfe = Join-Path $root 'Поставка\Учет явки.cfe'
 [Console]::WriteLine("Каталог базы: $base")
 
 function Invoke-Platform([string]$arguments, [string]$step) {
@@ -46,6 +49,16 @@ function Invoke-Platform([string]$arguments, [string]$step) {
         $detail = Get-Content -LiteralPath $log -Raw -ErrorAction SilentlyContinue
         throw "Шаг $step завершился с кодом $($process.ExitCode). $detail"
     }
+}
+
+function Invoke-Scenario([string]$command, [string]$step, [string]$expected, [string]$user) {
+    $resultPath = Join-Path $logs "$step.txt"
+    $arguments = 'ENTERPRISE /F "{0}" /C "{1}|{2}"' -f $base, $command, $resultPath
+    if ($user) { $arguments += ' /N "{0}"' -f $user }
+    Invoke-Platform $arguments $step
+    $result = Get-Content -LiteralPath $resultPath -Raw -Encoding UTF8
+    [Console]::WriteLine($result.TrimEnd())
+    if ($result -notmatch $expected) { throw "Шаг ${step}: проверка не пройдена. Журнал: $resultPath" }
 }
 
 if ($Mode -eq 'Open') {
@@ -71,18 +84,26 @@ if ($Mode -in 'Restore','Test') {
         Invoke-Platform ('DESIGNER /F "{0}" /LoadCfg "{1}"' -f $base, $cf) 'config'
     }
     Invoke-Platform ('DESIGNER /F "{0}" /UpdateDBCfg' -f $base) 'update'
+    if ($Mode -eq 'Source') {
+        Invoke-Platform ('DESIGNER /F "{0}" /LoadConfigFromFiles "{1}" -Extension {2}' -f $base, $extensionSource, $extensionName) 'extension-source'
+    } else {
+        Invoke-Platform ('DESIGNER /F "{0}" /LoadCfg "{1}" -Extension {2}' -f $base, $cfe, $extensionName) 'extension-config'
+    }
+    Invoke-Platform ('DESIGNER /F "{0}" /UpdateDBCfg -Extension {1}' -f $base, $extensionName) 'extension-update'
     $demoLog = Join-Path $logs 'demo-result.txt'
     Invoke-Platform ('ENTERPRISE /F "{0}" /C "СпортДемо|{1}"' -f $base, $demoLog) 'demo'
     $demoText = Get-Content -LiteralPath $demoLog -Raw -Encoding UTF8
     if ($demoText -notmatch '^Загружено:') { throw $demoText }
     [Console]::WriteLine($demoText.TrimEnd())
+    Invoke-Scenario 'СпортДемоЯвки' 'attendance-demo' '^ИТОГ: ПРИМЕР ЯВКИ ГОТОВ'
+    Invoke-Scenario 'СпортПользователи' 'demo-users' '^ИТОГ: ЧЕТЫРЕ УЧЕБНЫХ ПОЛЬЗОВАТЕЛЯ СОЗДАНЫ'
 }
 
 if ($Mode -eq 'Test') {
-    $testLog = Join-Path $logs 'test-result.txt'
-    Invoke-Platform ('ENTERPRISE /F "{0}" /C "СпортТест|{1}"' -f $base, $testLog) 'test'
-    $testText = Get-Content -LiteralPath $testLog -Raw -Encoding UTF8
-    [Console]::WriteLine($testText.TrimEnd())
-    if ($testText -notmatch 'ИТОГ: ПРОЙДЕНО') { throw "Обнаружены ошибки. Журнал: $testLog" }
+    Invoke-Scenario 'СпортТест' 'base-test' 'ИТОГ: ПРОЙДЕНО' 'Администратор'
+    Invoke-Scenario 'СпортТестЯвки' 'attendance-test' '^ИТОГ: ПРОЙДЕНО' 'Администратор'
+    foreach ($user in 'Администратор','Организатор','Судья','Читатель отчетов') {
+        Invoke-Scenario 'СпортПрава' "rights-$user" '^ИТОГ: ПРОЙДЕНО' $user
+    }
 }
 [Console]::WriteLine("Журналы: $logs")

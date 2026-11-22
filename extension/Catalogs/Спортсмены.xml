@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+  <Catalog uuid="37a2944a-750b-5518-886c-c59f348ecdb9">
+    <InternalInfo>
+      <xr:GeneratedType name="CatalogObject.Спортсмены" category="Object">
+        <xr:TypeId>0852ae4b-44ea-5dbd-a9a1-c23c56949dd6</xr:TypeId>
+        <xr:ValueId>45ddcccd-f990-56e3-83a9-00b3dfe7e210</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="CatalogRef.Спортсмены" category="Ref">
+        <xr:TypeId>9fec9d13-72c9-58df-8d2d-886dd8cdb757</xr:TypeId>
+        <xr:ValueId>c94a18c6-0e15-5de4-8dda-a399936f5720</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="CatalogSelection.Спортсмены" category="Selection">
+        <xr:TypeId>6a506505-c30b-5dd3-9eb9-7ff2ffd7b1ac</xr:TypeId>
+        <xr:ValueId>1722ab0d-8e2b-5a22-ab4b-02ed8a11aa3f</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="CatalogList.Спортсмены" category="List">
+        <xr:TypeId>7edd9ced-9674-5701-9c35-e330b5a6e6d7</xr:TypeId>
+        <xr:ValueId>67b41375-e2e5-5296-ab90-ecec038c9227</xr:ValueId>
+      </xr:GeneratedType>
+      <xr:GeneratedType name="CatalogManager.Спортсмены" category="Manager">
+        <xr:TypeId>e01d33df-8897-5e0f-bcc1-214ff2bd94c9</xr:TypeId>
+        <xr:ValueId>e2a8fc8b-7d61-5e97-951f-edc899dcdfb8</xr:ValueId>
+      </xr:GeneratedType>
+    </InternalInfo>
+    <Properties>
+      <ObjectBelonging>Adopted</ObjectBelonging>
+      <Name>Спортсмены</Name>
+      <Comment/>
+      <ExtendedConfigurationObject>d2a75188-e7bb-5470-b6c0-d856f074f3a7</ExtendedConfigurationObject>
+    </Properties>
+    <ChildObjects/>
+  </Catalog>
+</MetaDataObject>

@@ -14,7 +14,10 @@
       <IncludeInCommandInterface>true</IncludeInCommandInterface>
       <UseOneCommand>false</UseOneCommand>
       <Explanation/>
-      <Picture/>
+      <Picture>
+        <xr:Ref>CommonPicture.Явка_Значок</xr:Ref>
+        <xr:LoadTransparent>true</xr:LoadTransparent>
+      </Picture>
       <Content>
         <xr:Item xsi:type="xr:MDObjectRef">Document.Явка_УчетЯвки</xr:Item>
         <xr:Item xsi:type="xr:MDObjectRef">Report.Явка_АнализЯвки</xr:Item>

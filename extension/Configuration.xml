@@ -64,6 +64,7 @@
       <InformationRegister>ЗарегистрированныеУчастники</InformationRegister>
       <CommonModule>СпортивныеПравила</CommonModule>
       <CommonModule>ОбщегоНазначенияКлиентСервер</CommonModule>
+      <CommonPicture>Явка_Значок</CommonPicture>
       <Subsystem>Явка_Явка</Subsystem>
       <Document>Явка_УчетЯвки</Document>
       <Report>Явка_АнализЯвки</Report>

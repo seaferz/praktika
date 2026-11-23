@@ -6,8 +6,10 @@
 		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="028a64e4-fc29-518d-b337-0b08bc4dd7ed" configVersion="8dc5bd5c6481b286d8c6a12a764a6fa75c04342e"/>
 		<Metadata name="CommonModule.СпортивныеПравила" id="2bc2c0a0-d1e6-5cb1-b010-81c7e24bfb55" configVersion="28d4c97480f534023a95d465580c06dbc0b99ad8"/>
 		<Metadata name="CommonModule.Явка_Правила" id="c37a2373-3abd-54b3-b39c-80d59032effe" configVersion="75e0eb7cea3cc03321883e061646ec743c8983a3"/>
-		<Metadata name="CommonModule.Явка_Правила.Module" id="c37a2373-3abd-54b3-b39c-80d59032effe.0" configVersion="244ffa71bef1bc3fab0ebf2edac1f5db3203a2a1"/>
-		<Metadata name="Configuration.УчетЯвки" id="7545abb5-78b3-5a8b-af4b-4fedbc05d070" configVersion="33708b084eda11594b84e9025ce8027865a44a35"/>
+		<Metadata name="CommonModule.Явка_Правила.Module" id="c37a2373-3abd-54b3-b39c-80d59032effe.0" configVersion="7c8c728c97cb6eb90b4ff9d477de11f959958519"/>
+		<Metadata name="CommonPicture.Явка_Значок" id="933f66b4-d672-4de3-b87f-0bd0c2b4764b" configVersion="a4a1f447fdfd9af287d976f37bf9a0cbc5a5980e"/>
+		<Metadata name="CommonPicture.Явка_Значок.Picture" id="933f66b4-d672-4de3-b87f-0bd0c2b4764b.0" configVersion="04ab30bb09782401985c1695b84578fb8ed86dc4"/>
+		<Metadata name="Configuration.УчетЯвки" id="7545abb5-78b3-5a8b-af4b-4fedbc05d070" configVersion="e322c3bc8f54b4fb7eae28a7cee72d90bee61374"/>
 		<Metadata name="Document.Мероприятие" id="da0318a6-a360-5ad3-a753-283e7eda75d4" configVersion="a51bbaa57f95a6d22b7fde14e5d9108633783082"/>
 		<Metadata name="Document.Явка_УчетЯвки" id="193c2cb5-db39-5276-b9d4-ba78e19cf327" configVersion="76f0f67664a1033b0d0dd90523782f41b894bfb2">
 			<Metadata name="Document.Явка_УчетЯвки.Attribute.Мероприятие" id="548c5f34-1365-54b0-93e5-2b35c45b0d47"/>
@@ -19,7 +21,7 @@
 		<Metadata name="Document.Явка_УчетЯвки.Form.ФормаДокумента.Form" id="957854c1-5dd9-5af4-beb5-a242cd53c7c5.0" configVersion="48377dc5ecc42b2003b726df588897255ffee667"/>
 		<Metadata name="Document.Явка_УчетЯвки.Form.ФормаСписка" id="343332f5-4ca8-5c27-b4a8-07437f06080a" configVersion="2831502fd3d55a300a298d1b3faca218199c0f00"/>
 		<Metadata name="Document.Явка_УчетЯвки.Form.ФормаСписка.Form" id="343332f5-4ca8-5c27-b4a8-07437f06080a.0" configVersion="ccbb65db66b1ac21e301c9408ac468c8e2892572"/>
-		<Metadata name="Document.Явка_УчетЯвки.ObjectModule" id="193c2cb5-db39-5276-b9d4-ba78e19cf327.0" configVersion="a4960c793290f90681baed3400c0974d2b0534f8"/>
+		<Metadata name="Document.Явка_УчетЯвки.ObjectModule" id="193c2cb5-db39-5276-b9d4-ba78e19cf327.0" configVersion="f5811320721f9174265c973bbfc35db6d63fb12b"/>
 		<Metadata name="Enum.СтатусыМероприятий" id="a14aa07f-2d42-5e00-a581-7fd255b352ba" configVersion="b571e666a4c6579da5be821f676ea4c714ab9f0b">
 			<Metadata name="Enum.СтатусыМероприятий.EnumValue.Отменено" id="27aef7fb-729f-4901-b13c-14cf22c280e6"/>
 		</Metadata>
@@ -41,6 +43,6 @@
 		<Metadata name="Role.Явка_Просмотр.Rights" id="2e5baff4-ed98-5098-a11a-eefe1601bde2.0" configVersion="abd697ca584502553916b862c39bb543c81e1cfa"/>
 		<Metadata name="Role.Явка_Редактирование" id="3aa3bc21-faae-591c-80ff-40acb81fa672" configVersion="f063146977cac22c61c4aea012827cec3ea50276"/>
 		<Metadata name="Role.Явка_Редактирование.Rights" id="3aa3bc21-faae-591c-80ff-40acb81fa672.0" configVersion="c1793206cd8cd3ce05d8256c74ae57b4024a417c"/>
-		<Metadata name="Subsystem.Явка_Явка" id="aeb4d09c-2c94-532d-bb9a-8915921cfa40" configVersion="5f593f15d97bcdcd0d54810bdde49167c7c1379f"/>
+		<Metadata name="Subsystem.Явка_Явка" id="aeb4d09c-2c94-532d-bb9a-8915921cfa40" configVersion="10e4cdb91aaa6445103a3990435d7eace1af563d"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

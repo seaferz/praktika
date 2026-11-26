@@ -1,339 +1,300 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <mxfile host="app.diagrams.net">
   <diagram id="before" name="Как есть">
-    <mxGraphModel grid="0" page="1" pageScale="1" pageWidth="1040" pageHeight="1360">
+    <mxGraphModel grid="0" page="1" pageScale="1" pageWidth="1190" pageHeight="762">
       <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="pool" value="Учет явки на соревнование" style="swimlane;whiteSpace=wrap;html=1;startSize=38;horizontal=1;rounded=0;collapsible=0;container=1;fillColor=#e4ecf3;swimlaneFillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=23;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="16" y="40" width="1016" height="1056" as="geometry" />
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="pool" value="Учет явки на соревнование" style="swimlane;horizontal=1;align=left;spacingLeft=15;startSize=41;rounded=0;collapsible=0;container=1;fillColor=#e0e7ed;swimlaneFillColor=#ffffff;fontSize=29;fontStyle=1;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="1160" height="732" as="geometry"/>
         </mxCell>
-        <mxCell id="o" value="Организатор" style="swimlane;whiteSpace=wrap;html=1;startSize=34;horizontal=1;rounded=0;collapsible=0;container=1;fillColor=#f0f4f8;swimlaneFillColor=#ffffff;strokeColor=#566576;fontSize=22;fontStyle=1;" vertex="1" parent="pool">
-          <mxGeometry x="0" y="38" width="508" height="1018" as="geometry" />
+        <mxCell id="o" value="Организатор" style="swimlane;horizontal=0;startSize=49;rounded=0;collapsible=0;container=1;fillColor=#edf1f4;swimlaneFillColor=#ffffff;fontSize=26;fontStyle=1;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="pool">
+          <mxGeometry x="0" y="41" width="1160" height="465" as="geometry"/>
         </mxCell>
-        <mxCell id="s" value="Учетная система" style="swimlane;whiteSpace=wrap;html=1;startSize=34;horizontal=1;rounded=0;collapsible=0;container=1;fillColor=#f0f4f8;swimlaneFillColor=#ffffff;strokeColor=#566576;fontSize=22;fontStyle=1;" vertex="1" parent="pool">
-          <mxGeometry x="508" y="38" width="508" height="1018" as="geometry" />
+        <mxCell id="s" value="Учетная система" style="swimlane;horizontal=0;startSize=49;rounded=0;collapsible=0;container=1;fillColor=#edf1f4;swimlaneFillColor=#ffffff;fontSize=26;fontStyle=1;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="pool">
+          <mxGeometry x="0" y="506" width="1160" height="226" as="geometry"/>
         </mxCell>
-        <mxCell id="start" value="" style="ellipse;aspect=fixed;fillColor=#ffffff;strokeColor=#23384d;strokeWidth=2;" vertex="1" parent="o">
-          <mxGeometry x="238" y="51" width="32" height="32" as="geometry" />
+        <mxCell id="start" value="" style="ellipse;aspect=fixed;fillColor=#ffffff;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="83.0" y="109.0" width="34" height="34" as="geometry"/>
         </mxCell>
-        <mxCell id="start-label" value="Запрошены сведения о явке" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=19;fontColor=#23384d;" vertex="1" parent="o">
-          <mxGeometry x="277" y="44" width="190" height="47" as="geometry" />
+        <mxCell id="start-label" value="Запрошены&lt;br&gt;сведения&lt;br&gt;о явке" style="text;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=24;spacing=0;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;" vertex="1" parent="o">
+          <mxGeometry x="53.5" y="12.5" width="121" height="81" as="geometry"/>
         </mxCell>
-        <mxCell id="select" value="Выбрать мероприятие и открыть список участников" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="o">
-          <mxGeometry x="110" y="104" width="288" height="58" as="geometry" />
+        <mxCell id="select" value="Выбрать&lt;br&gt;мероприятие&lt;br&gt;и открыть&lt;br&gt;список" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="165.0" y="63.0" width="160" height="126" as="geometry"/>
         </mxCell>
-        <mxCell id="roster" value="Вывести проведенные регистрации" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="s">
-          <mxGeometry x="84" y="104" width="340" height="58" as="geometry" />
+        <mxCell id="roster" value="Показать&lt;br&gt;проведенные&lt;br&gt;регистрации" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="s">
+          <mxGeometry x="161.0" y="57.0" width="168" height="98" as="geometry"/>
         </mxCell>
-        <mxCell id="has" value="×" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=30;fontStyle=1;" vertex="1" parent="s">
-          <mxGeometry x="231" y="195" width="46" height="46" as="geometry" />
+        <mxCell id="has" value="×" style="rhombus;fillColor=#ffffff;fontSize=39;fontStyle=1;spacing=0;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="s">
+          <mxGeometry x="388.0" y="84.0" width="44" height="44" as="geometry"/>
         </mxCell>
-        <mxCell id="has-label" value="Есть участники?" style="text;html=1;whiteSpace=wrap;align=right;verticalAlign=middle;fontSize=19;fontColor=#23384d;" vertex="1" parent="s">
-          <mxGeometry x="19" y="194" width="190" height="47" as="geometry" />
+        <mxCell id="has-label" value="Есть&lt;br&gt;участники?" style="text;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=24;spacing=0;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;" vertex="1" parent="s">
+          <mxGeometry x="347.0" y="140.0" width="126" height="58" as="geometry"/>
         </mxCell>
         <mxCell id="empty" value="" style="ellipse;aspect=fixed;fillColor=#ffffff;strokeColor=#23384d;strokeWidth=5;" vertex="1" parent="s">
-          <mxGeometry x="307" y="202" width="32" height="32" as="geometry" />
+          <mxGeometry x="557.0" y="89.0" width="34" height="34" as="geometry"/>
         </mxCell>
-        <mxCell id="empty-label" value="Регистраций нет" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=19;fontColor=#23384d;" vertex="1" parent="s">
-          <mxGeometry x="346" y="195" width="190" height="47" as="geometry" />
+        <mxCell id="empty-label" value="Регистраций&lt;br&gt;нет" style="text;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=24;spacing=0;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;" vertex="1" parent="s">
+          <mxGeometry x="509.0" y="141.0" width="130" height="56" as="geometry"/>
         </mxCell>
-        <mxCell id="start-select" value="" edge="1" parent="1" source="start" target="select" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="start-select" value="" edge="1" parent="1" source="start" target="select" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="select-roster" value="" edge="1" parent="1" source="select" target="roster" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="select-roster" value="" edge="1" parent="1" source="select" target="roster" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="roster-has" value="" edge="1" parent="1" source="roster" target="has" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="roster-has" value="" edge="1" parent="1" source="roster" target="has" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="has-empty" value="Нет" edge="1" parent="1" source="has" target="empty" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="has-empty" value="Нет" edge="1" parent="1" source="has" target="empty" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry" x="0"><mxPoint x="0" y="-18" as="offset"/></mxGeometry>
         </mxCell>
-        <mxCell id="copy" value="Перенести список в ведомость" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="o">
-          <mxGeometry x="110" y="281" width="288" height="58" as="geometry" />
+        <mxCell id="copy" value="Перенести&lt;br&gt;список&lt;br&gt;в ведомость" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="372.0" y="77.0" width="164" height="98" as="geometry"/>
         </mxCell>
-        <mxCell id="checkin" value="Сверить прибывших со списком" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="o">
-          <mxGeometry x="110" y="370" width="288" height="58" as="geometry" />
+        <mxCell id="checkin" value="Сверить явку&lt;br&gt;по списку" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="559.5" y="77.0" width="161" height="98" as="geometry"/>
         </mxCell>
-        <mxCell id="join" value="×" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=30;fontStyle=1;" vertex="1" parent="o">
-          <mxGeometry x="231" y="451" width="46" height="46" as="geometry" />
+        <mxCell id="join" value="×" style="rhombus;fillColor=#ffffff;fontSize=39;fontStyle=1;spacing=0;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="748.0" y="104.0" width="44" height="44" as="geometry"/>
         </mxCell>
-        <mxCell id="mark" value="Отметить явку в ведомости" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="o">
-          <mxGeometry x="110" y="518" width="278" height="58" as="geometry" />
+        <mxCell id="mark" value="Отметить явку&lt;br&gt;в ведомости" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="830.0" y="77.0" width="164" height="98" as="geometry"/>
         </mxCell>
-        <mxCell id="count" value="Подсчитать отметки по группам" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="o">
-          <mxGeometry x="110" y="602" width="288" height="58" as="geometry" />
+        <mxCell id="count" value="Подсчитать&lt;br&gt;отметки&lt;br&gt;по группам" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="904.0" y="307.0" width="164" height="98" as="geometry"/>
         </mxCell>
-        <mxCell id="reconcile" value="Сверить итоги со списком" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="o">
-          <mxGeometry x="110" y="686" width="288" height="58" as="geometry" />
+        <mxCell id="reconcile" value="Сверить итоги&lt;br&gt;со списком" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="726.0" y="307.0" width="160" height="98" as="geometry"/>
         </mxCell>
-        <mxCell id="valid" value="×" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=30;fontStyle=1;" vertex="1" parent="o">
-          <mxGeometry x="231" y="769" width="46" height="46" as="geometry" />
+        <mxCell id="valid" value="×" style="rhombus;fillColor=#ffffff;fontSize=39;fontStyle=1;spacing=0;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="653.0" y="334.0" width="44" height="44" as="geometry"/>
         </mxCell>
-        <mxCell id="valid-label" value="Итоги сходятся?" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=19;fontColor=#23384d;" vertex="1" parent="o">
-          <mxGeometry x="286" y="768" width="198" height="47" as="geometry" />
+        <mxCell id="valid-label" value="Итоги сходятся?" style="text;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=24;spacing=0;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;" vertex="1" parent="o">
+          <mxGeometry x="595.0" y="404.0" width="160" height="42" as="geometry"/>
         </mxCell>
-        <mxCell id="send" value="Представить сведения о явке" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="o">
-          <mxGeometry x="110" y="857" width="288" height="58" as="geometry" />
+        <mxCell id="send" value="Представить&lt;br&gt;сведения о явке" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="452.0" y="307.0" width="164" height="98" as="geometry"/>
         </mxCell>
         <mxCell id="end" value="" style="ellipse;aspect=fixed;fillColor=#ffffff;strokeColor=#23384d;strokeWidth=5;" vertex="1" parent="o">
-          <mxGeometry x="238" y="940" width="32" height="32" as="geometry" />
+          <mxGeometry x="388.0" y="339.0" width="34" height="34" as="geometry"/>
         </mxCell>
-        <mxCell id="end-label" value="Сведения о явке получены" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=19;fontColor=#23384d;" vertex="1" parent="o">
-          <mxGeometry x="277" y="933" width="190" height="47" as="geometry" />
+        <mxCell id="end-label" value="Сведения&lt;br&gt;о явке&lt;br&gt;получены" style="text;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=24;spacing=0;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;" vertex="1" parent="o">
+          <mxGeometry x="334.0" y="374.0" width="132" height="86" as="geometry"/>
         </mxCell>
-        <mxCell id="sheet" value="Ведомость явки" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#f1f5f9;strokeColor=#42576c;strokeWidth=1.5;fontSize=16;" vertex="1" parent="o">
-          <mxGeometry x="400" y="517" width="100" height="61" as="geometry" />
+        <mxCell id="sheet" value="Ведомость&lt;br&gt;явки" style="shape=note;size=15;fillColor=#ffffff;fontSize=22;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="1023.0" y="92.0" width="114" height="72" as="geometry"/>
         </mxCell>
-        <mxCell id="has-copy" value="Да" edge="1" parent="1" source="has" target="copy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;entryX=0.5;entryY=0;">
+        <mxCell id="has-copy" value="Да" edge="1" parent="1" source="has" target="copy" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0;entryX=0.5;entryY=1;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry" x="-0.8">
+            <Array as="points"><mxPoint x="420" y="559"/><mxPoint x="351" y="559"/><mxPoint x="351" y="271"/><mxPoint x="464" y="271"/></Array><mxPoint x="-6" y="-17" as="offset"/></mxGeometry>
+        </mxCell>
+        <mxCell id="copy-checkin" value="" edge="1" parent="1" source="copy" target="checkin" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="checkin-join" value="" edge="1" parent="1" source="checkin" target="join" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="join-mark" value="" edge="1" parent="1" source="join" target="mark" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="mark-count" value="" edge="1" parent="1" source="mark" target="count" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="922" y="283"/><mxPoint x="996" y="283"/></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="count-reconcile" value="" edge="1" parent="1" source="count" target="reconcile" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0;exitY=0.5;entryX=1;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="reconcile-valid" value="" edge="1" parent="1" source="reconcile" target="valid" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0;exitY=0.5;entryX=1;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="send-end" value="" edge="1" parent="1" source="send" target="end" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0;exitY=0.5;entryX=1;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="valid-send" value="Да" edge="1" parent="1" source="valid" target="send" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0;exitY=0.5;entryX=1;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry" x="0"><mxPoint x="0" y="-17" as="offset"/></mxGeometry>
+        </mxCell>
+        <mxCell id="valid-join" value="Нет" edge="1" parent="1" source="valid" target="join" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0;entryX=0.5;entryY=1;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry" x="-0.65">
+            <Array as="points"><mxPoint x="685" y="286"/><mxPoint x="780" y="286"/></Array><mxPoint x="-22" y="0" as="offset"/></mxGeometry>
+        </mxCell>
+        <mxCell id="mark-sheet" edge="1" parent="1" source="mark" target="sheet" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;dashed=1;dashPattern=1 3;endArrow=open;endFill=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1018" y="177"/><mxPoint x="1018" y="179"/></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="sheet-count" edge="1" parent="1" source="sheet" target="count" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;dashed=1;dashPattern=1 3;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=1;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="762" y="332" />
-              <mxPoint x="270" y="332" />
-            </Array>
-          </mxGeometry>
+            <Array as="points"><mxPoint x="1090" y="407"/></Array></mxGeometry>
         </mxCell>
-        <mxCell id="copy-checkin" value="" edge="1" parent="1" source="copy" target="checkin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="checkin-join" value="" edge="1" parent="1" source="checkin" target="join" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="join-mark" value="" edge="1" parent="1" source="join" target="mark" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mark-count" value="" edge="1" parent="1" source="mark" target="count" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="count-reconcile" value="" edge="1" parent="1" source="count" target="reconcile" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="reconcile-valid" value="" edge="1" parent="1" source="reconcile" target="valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="send-end" value="" edge="1" parent="1" source="send" target="end" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="valid-send" value="Да" edge="1" parent="1" source="valid" target="send" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="valid-join" value="Нет" edge="1" parent="1" source="valid" target="join" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="86" y="870" />
-              <mxPoint x="86" y="552" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mark-sheet" edge="1" parent="1" source="mark" target="sheet" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;dashed=1;dashPattern=1 3;strokeColor=#4d5f73;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sheet-count" edge="1" parent="1" source="sheet" target="count" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;dashed=1;dashPattern=1 3;strokeColor=#4d5f73;strokeWidth=2;exitX=0.5;exitY=1;entryX=1;entryY=0.5;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="466" y="709" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="note" value="В учебной модели отметки исходного процесса ведутся в отдельной ведомости." style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fontSize=19;fontColor=#405369;" vertex="1" parent="1">
-          <mxGeometry x="574" y="492" width="385" height="65" as="geometry" />
+        <mxCell id="note" value="В учебной модели отметки ведутся в отдельной ведомости." style="shape=note;size=0;fillColor=#ffffff;strokeColor=none;fontSize=21;fontStyle=2;align=left;spacing=0;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;" vertex="1" parent="1">
+          <mxGeometry x="657.0" y="578.5" width="370" height="93" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="after" name="Как должно быть">
-    <mxGraphModel grid="0" page="1" pageScale="1" pageWidth="1040" pageHeight="1360">
+    <mxGraphModel grid="0" page="1" pageScale="1" pageWidth="1295" pageHeight="962">
       <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="pool" value="Учет явки на соревнование" style="swimlane;whiteSpace=wrap;html=1;startSize=38;horizontal=1;rounded=0;collapsible=0;container=1;fillColor=#e4ecf3;swimlaneFillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=23;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="16" y="40" width="1016" height="1245" as="geometry" />
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="pool" value="Учет явки на соревнование" style="swimlane;horizontal=1;align=left;spacingLeft=15;startSize=41;rounded=0;collapsible=0;container=1;fillColor=#e0e7ed;swimlaneFillColor=#ffffff;fontSize=29;fontStyle=1;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="1265" height="932" as="geometry"/>
         </mxCell>
-        <mxCell id="o" value="Организатор" style="swimlane;whiteSpace=wrap;html=1;startSize=34;horizontal=1;rounded=0;collapsible=0;container=1;fillColor=#f0f4f8;swimlaneFillColor=#ffffff;strokeColor=#566576;fontSize=22;fontStyle=1;" vertex="1" parent="pool">
-          <mxGeometry x="0" y="38" width="508" height="1207" as="geometry" />
+        <mxCell id="o" value="Организатор" style="swimlane;horizontal=0;startSize=49;rounded=0;collapsible=0;container=1;fillColor=#edf1f4;swimlaneFillColor=#ffffff;fontSize=26;fontStyle=1;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="pool">
+          <mxGeometry x="0" y="41" width="1265" height="463" as="geometry"/>
         </mxCell>
-        <mxCell id="s" value="Учетная система" style="swimlane;whiteSpace=wrap;html=1;startSize=34;horizontal=1;rounded=0;collapsible=0;container=1;fillColor=#f0f4f8;swimlaneFillColor=#ffffff;strokeColor=#566576;fontSize=22;fontStyle=1;" vertex="1" parent="pool">
-          <mxGeometry x="508" y="38" width="508" height="1207" as="geometry" />
+        <mxCell id="s" value="Учетная система" style="swimlane;horizontal=0;startSize=49;rounded=0;collapsible=0;container=1;fillColor=#edf1f4;swimlaneFillColor=#ffffff;fontSize=26;fontStyle=1;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="pool">
+          <mxGeometry x="0" y="504" width="1265" height="428" as="geometry"/>
         </mxCell>
-        <mxCell id="start" value="" style="ellipse;aspect=fixed;fillColor=#ffffff;strokeColor=#23384d;strokeWidth=2;" vertex="1" parent="o">
-          <mxGeometry x="238" y="51" width="32" height="32" as="geometry" />
+        <mxCell id="start" value="" style="ellipse;aspect=fixed;fillColor=#ffffff;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="83.0" y="109.0" width="34" height="34" as="geometry"/>
         </mxCell>
-        <mxCell id="start-label" value="Запрошены сведения о явке" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=19;fontColor=#23384d;" vertex="1" parent="o">
-          <mxGeometry x="277" y="44" width="190" height="47" as="geometry" />
+        <mxCell id="start-label" value="Запрошены&lt;br&gt;сведения&lt;br&gt;о явке" style="text;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=24;spacing=0;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;" vertex="1" parent="o">
+          <mxGeometry x="53.5" y="12.5" width="121" height="81" as="geometry"/>
         </mxCell>
-        <mxCell id="select" value="Выбрать мероприятие и открыть список участников" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="o">
-          <mxGeometry x="110" y="104" width="288" height="58" as="geometry" />
+        <mxCell id="select" value="Выбрать&lt;br&gt;мероприятие&lt;br&gt;и открыть&lt;br&gt;список" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="159.0" y="63.0" width="160" height="126" as="geometry"/>
         </mxCell>
-        <mxCell id="roster" value="Вывести проведенные регистрации" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="s">
-          <mxGeometry x="84" y="104" width="340" height="58" as="geometry" />
+        <mxCell id="roster" value="Показать&lt;br&gt;проведенные&lt;br&gt;регистрации" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="s">
+          <mxGeometry x="155.0" y="47.0" width="168" height="98" as="geometry"/>
         </mxCell>
-        <mxCell id="has" value="×" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=30;fontStyle=1;" vertex="1" parent="s">
-          <mxGeometry x="231" y="195" width="46" height="46" as="geometry" />
+        <mxCell id="has" value="×" style="rhombus;fillColor=#ffffff;fontSize=39;fontStyle=1;spacing=0;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="s">
+          <mxGeometry x="367.0" y="74.0" width="44" height="44" as="geometry"/>
         </mxCell>
-        <mxCell id="has-label" value="Есть участники?" style="text;html=1;whiteSpace=wrap;align=right;verticalAlign=middle;fontSize=19;fontColor=#23384d;" vertex="1" parent="s">
-          <mxGeometry x="19" y="194" width="190" height="47" as="geometry" />
+        <mxCell id="has-label" value="Есть&lt;br&gt;участники?" style="text;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=24;spacing=0;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;" vertex="1" parent="s">
+          <mxGeometry x="326.0" y="130.0" width="126" height="58" as="geometry"/>
         </mxCell>
         <mxCell id="empty" value="" style="ellipse;aspect=fixed;fillColor=#ffffff;strokeColor=#23384d;strokeWidth=5;" vertex="1" parent="s">
-          <mxGeometry x="307" y="202" width="32" height="32" as="geometry" />
+          <mxGeometry x="496.0" y="79.0" width="34" height="34" as="geometry"/>
         </mxCell>
-        <mxCell id="empty-label" value="Регистраций нет" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=19;fontColor=#23384d;" vertex="1" parent="s">
-          <mxGeometry x="346" y="195" width="190" height="47" as="geometry" />
+        <mxCell id="empty-label" value="Регистраций&lt;br&gt;нет" style="text;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=24;spacing=0;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;" vertex="1" parent="s">
+          <mxGeometry x="428.5" y="130.5" width="127" height="57" as="geometry"/>
         </mxCell>
-        <mxCell id="start-select" value="" edge="1" parent="1" source="start" target="select" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="start-select" value="" edge="1" parent="1" source="start" target="select" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="select-roster" value="" edge="1" parent="1" source="select" target="roster" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="select-roster" value="" edge="1" parent="1" source="select" target="roster" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="roster-has" value="" edge="1" parent="1" source="roster" target="has" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="roster-has" value="" edge="1" parent="1" source="roster" target="has" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="has-empty" value="Нет" edge="1" parent="1" source="has" target="empty" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="has-empty" value="Нет" edge="1" parent="1" source="has" target="empty" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry" x="0"><mxPoint x="0" y="-18" as="offset"/></mxGeometry>
         </mxCell>
-        <mxCell id="open" value="Создать документ явки и выбрать мероприятие" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="o">
-          <mxGeometry x="110" y="260" width="288" height="58" as="geometry" />
+        <mxCell id="open" value="Создать&lt;br&gt;документ явки&lt;br&gt;и выбрать&lt;br&gt;мероприятие" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="381.0" y="63.0" width="160" height="126" as="geometry"/>
         </mxCell>
-        <mxCell id="fill" value="Нажать «Заполнить участниками»" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="o">
-          <mxGeometry x="110" y="340" width="288" height="58" as="geometry" />
+        <mxCell id="fill" value="Нажать&lt;br&gt;«Заполнить&lt;br&gt;участниками»" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="574.5" y="77.0" width="161" height="98" as="geometry"/>
         </mxCell>
-        <mxCell id="rows" value="Заполнить строки из реестра" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="s">
-          <mxGeometry x="110" y="340" width="288" height="58" as="geometry" />
+        <mxCell id="rows" value="Заполнить&lt;br&gt;строки&lt;br&gt;из реестра" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="s">
+          <mxGeometry x="578.0" y="47.0" width="154" height="98" as="geometry"/>
         </mxCell>
-        <mxCell id="checkin" value="Сверить прибывших со списком" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="o">
-          <mxGeometry x="110" y="422" width="288" height="58" as="geometry" />
+        <mxCell id="checkin" value="Сверить явку&lt;br&gt;по списку" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="744.0" y="77.0" width="142" height="98" as="geometry"/>
         </mxCell>
-        <mxCell id="join" value="×" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=30;fontStyle=1;" vertex="1" parent="o">
-          <mxGeometry x="231" y="501" width="46" height="46" as="geometry" />
+        <mxCell id="join" value="×" style="rhombus;fillColor=#ffffff;fontSize=39;fontStyle=1;spacing=0;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="914.0" y="104.0" width="44" height="44" as="geometry"/>
         </mxCell>
-        <mxCell id="mark" value="Указать отметки в документе" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="o">
-          <mxGeometry x="110" y="568" width="288" height="58" as="geometry" />
+        <mxCell id="mark" value="Указать&lt;br&gt;отметки&lt;br&gt;в документе" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="978.5" y="77.0" width="163" height="98" as="geometry"/>
         </mxCell>
-        <mxCell id="post" value="Нажать «Провести»" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="o">
-          <mxGeometry x="110" y="651" width="288" height="58" as="geometry" />
+        <mxCell id="post" value="Нажать&lt;br&gt;«Провести»" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="1032.5" y="290.0" width="145" height="92" as="geometry"/>
         </mxCell>
-        <mxCell id="validate" value="Проверить строки и регистрации" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="s">
-          <mxGeometry x="110" y="651" width="288" height="58" as="geometry" />
+        <mxCell id="validate" value="Проверить&lt;br&gt;строки и&lt;br&gt;регистрации" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="s">
+          <mxGeometry x="1026.0" y="47.0" width="158" height="98" as="geometry"/>
         </mxCell>
-        <mxCell id="valid" value="×" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=30;fontStyle=1;" vertex="1" parent="s">
-          <mxGeometry x="231" y="734" width="46" height="46" as="geometry" />
+        <mxCell id="valid" value="×" style="rhombus;fillColor=#ffffff;fontSize=39;fontStyle=1;spacing=0;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="s">
+          <mxGeometry x="930.0" y="74.0" width="44" height="44" as="geometry"/>
         </mxCell>
-        <mxCell id="valid-label" value="Строки допустимы?" style="text;html=1;whiteSpace=wrap;align=right;verticalAlign=middle;fontSize=19;fontColor=#23384d;" vertex="1" parent="s">
-          <mxGeometry x="19" y="733" width="190" height="47" as="geometry" />
+        <mxCell id="valid-label" value="Строки&lt;br&gt;допустимы?" style="text;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=24;spacing=0;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;" vertex="1" parent="s">
+          <mxGeometry x="872.0" y="4.5" width="160" height="55" as="geometry"/>
         </mxCell>
-        <mxCell id="refuse" value="Сообщить причину отказа" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="s">
-          <mxGeometry x="110" y="824" width="288" height="58" as="geometry" />
+        <mxCell id="refuse" value="Сообщить&lt;br&gt;причину&lt;br&gt;отказа" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="s">
+          <mxGeometry x="1002.0" y="192.0" width="156" height="98" as="geometry"/>
         </mxCell>
-        <mxCell id="record" value="Записать отметки в регистр" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="s">
-          <mxGeometry x="110" y="912" width="288" height="58" as="geometry" />
+        <mxCell id="record" value="Записать&lt;br&gt;отметки&lt;br&gt;в регистр" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="s">
+          <mxGeometry x="790.0" y="282.0" width="154" height="98" as="geometry"/>
         </mxCell>
-        <mxCell id="run" value="Сформировать отчет по мероприятию" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="o">
-          <mxGeometry x="110" y="998" width="288" height="58" as="geometry" />
+        <mxCell id="run" value="Сформировать&lt;br&gt;отчет по старту" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="856.0" y="288.0" width="166" height="96" as="geometry"/>
         </mxCell>
-        <mxCell id="report" value="Подготовить таблицу и диаграмму" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="s">
-          <mxGeometry x="110" y="998" width="288" height="58" as="geometry" />
+        <mxCell id="report" value="Подготовить&lt;br&gt;таблицу и&lt;br&gt;диаграмму" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="s">
+          <mxGeometry x="619.0" y="186.0" width="150" height="98" as="geometry"/>
         </mxCell>
-        <mxCell id="read" value="Сопоставить итоговые группы" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#304255;strokeWidth=2;fontSize=21;fontColor=#152638;spacing=5;" vertex="1" parent="o">
-          <mxGeometry x="110" y="1079" width="288" height="58" as="geometry" />
+        <mxCell id="read" value="Сопоставить&lt;br&gt;итоговые&lt;br&gt;группы" style="rounded=1;arcSize=16;fillColor=#f2f6f9;fontSize=24;spacing=3;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="o">
+          <mxGeometry x="421.5" y="288.0" width="157" height="96" as="geometry"/>
         </mxCell>
         <mxCell id="end" value="" style="ellipse;aspect=fixed;fillColor=#ffffff;strokeColor=#23384d;strokeWidth=5;" vertex="1" parent="o">
-          <mxGeometry x="238" y="1165" width="32" height="32" as="geometry" />
+          <mxGeometry x="353.0" y="319.0" width="34" height="34" as="geometry"/>
         </mxCell>
-        <mxCell id="end-label" value="Сведения о явке получены" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=19;fontColor=#23384d;" vertex="1" parent="o">
-          <mxGeometry x="277" y="1158" width="190" height="47" as="geometry" />
+        <mxCell id="end-label" value="Сведения&lt;br&gt;о явке&lt;br&gt;получены" style="text;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=21;spacing=0;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;" vertex="1" parent="o">
+          <mxGeometry x="332.0" y="380.0" width="132" height="72" as="geometry"/>
         </mxCell>
-        <mxCell id="register" value="Регистр явки" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#f1f5f9;strokeColor=#42576c;strokeWidth=1.5;fontSize=16;" vertex="1" parent="s">
-          <mxGeometry x="404" y="910" width="100" height="61" as="geometry" />
+        <mxCell id="register" value="Регистр&lt;br&gt;явки" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=12;fillColor=#ffffff;fontSize=22;spacingTop=5;whiteSpace=wrap;html=1;fontFamily=Liberation Serif;fontColor=#18212a;strokeColor=#334452;strokeWidth=2.4;" vertex="1" parent="s">
+          <mxGeometry x="638.0" y="295.0" width="112" height="72" as="geometry"/>
         </mxCell>
-        <mxCell id="has-open" value="Да" edge="1" parent="1" source="has" target="open" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;entryX=0.5;entryY=0;">
+        <mxCell id="has-open" value="Да" edge="1" parent="1" source="has" target="open" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0;entryX=0.5;entryY=1;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry" x="-0.78">
+            <Array as="points"><mxPoint x="399" y="560"/><mxPoint x="349" y="560"/><mxPoint x="349" y="270"/><mxPoint x="471" y="270"/></Array><mxPoint x="-15" y="0" as="offset"/></mxGeometry>
+        </mxCell>
+        <mxCell id="open-fill" value="" edge="1" parent="1" source="open" target="fill" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="checkin-join" value="" edge="1" parent="1" source="checkin" target="join" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="join-mark" value="" edge="1" parent="1" source="join" target="mark" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="mark-post" value="" edge="1" parent="1" source="mark" target="post" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1070" y="278"/><mxPoint x="1115" y="278"/></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="validate-valid" value="" edge="1" parent="1" source="validate" target="valid" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0;exitY=0.5;entryX=1;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="read-end" value="" edge="1" parent="1" source="read" target="end" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0;exitY=0.5;entryX=1;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="fill-rows" value="" edge="1" parent="1" source="fill" target="rows" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="post-validate" value="" edge="1" parent="1" source="post" target="validate" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="run-report" value="" edge="1" parent="1" source="run" target="report" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0;exitY=0.5;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="856" y="387"/><mxPoint x="856" y="682"/><mxPoint x="704" y="682"/></Array></mxGeometry>
+        </mxCell>
+        <mxCell id="rows-checkin" value="" edge="1" parent="1" source="rows" target="checkin" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;entryX=0.5;entryY=1;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="762" y="318" />
-              <mxPoint x="270" y="318" />
-            </Array>
-          </mxGeometry>
+            <Array as="points"><mxPoint x="825" y="610"/></Array></mxGeometry>
         </mxCell>
-        <mxCell id="open-fill" value="" edge="1" parent="1" source="open" target="fill" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="valid-refuse" value="Нет" edge="1" parent="1" source="valid" target="refuse" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry" x="-0.35"><Array as="points"><mxPoint x="962" y="755"/></Array><mxPoint x="21" y="0" as="offset"/></mxGeometry>
         </mxCell>
-        <mxCell id="checkin-join" value="" edge="1" parent="1" source="checkin" target="join" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="join-mark" value="" edge="1" parent="1" source="join" target="mark" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mark-post" value="" edge="1" parent="1" source="mark" target="post" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="validate-valid" value="" edge="1" parent="1" source="validate" target="valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="read-end" value="" edge="1" parent="1" source="read" target="end" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fill-rows" value="" edge="1" parent="1" source="fill" target="rows" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="post-validate" value="" edge="1" parent="1" source="post" target="validate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="run-report" value="" edge="1" parent="1" source="run" target="report" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rows-checkin" value="" edge="1" parent="1" source="rows" target="checkin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+        <mxCell id="refuse-join" value="" edge="1" parent="1" source="refuse" target="join" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="778" y="490" />
-              <mxPoint x="270" y="490" />
-            </Array>
-          </mxGeometry>
+            <Array as="points"><mxPoint x="1230" y="755"/><mxPoint x="1230" y="91"/><mxPoint x="946" y="91"/></Array></mxGeometry>
         </mxCell>
-        <mxCell id="valid-refuse" value="Нет" edge="1" parent="1" source="valid" target="refuse" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="valid-record" value="Да" edge="1" parent="1" source="valid" target="record" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0;exitY=0.5;entryX=1;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry" x="-0.62">
+            <Array as="points"><mxPoint x="907" y="610"/><mxPoint x="907" y="790"/><mxPoint x="992" y="790"/><mxPoint x="992" y="845"/></Array><mxPoint x="20" y="0" as="offset"/></mxGeometry>
         </mxCell>
-        <mxCell id="refuse-join" value="" edge="1" parent="1" source="refuse" target="join" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;entryX=1;entryY=0.5;">
+        <mxCell id="record-run" value="" edge="1" parent="1" source="record" target="run" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=0;entryX=0.5;entryY=1;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="468" y="931" />
-              <mxPoint x="468" y="602" />
-            </Array>
-          </mxGeometry>
+            <Array as="points"><mxPoint x="877" y="475"/><mxPoint x="949" y="475"/></Array></mxGeometry>
         </mxCell>
-        <mxCell id="valid-record" value="Да" edge="1" parent="1" source="valid" target="record" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0.5;entryY=0;">
+        <mxCell id="report-read" value="" edge="1" parent="1" source="report" target="read" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;endArrow=block;endFill=1;endSize=8;exitX=0;exitY=0.5;entryX=0.5;entryY=1;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="951" y="835" />
-              <mxPoint x="951" y="975" />
-              <mxPoint x="778" y="975" />
-            </Array>
-          </mxGeometry>
+            <Array as="points"><mxPoint x="573" y="749"/><mxPoint x="573" y="480"/><mxPoint x="510" y="480"/></Array></mxGeometry>
         </mxCell>
-        <mxCell id="record-run" value="" edge="1" parent="1" source="record" target="run" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+        <mxCell id="record-register" edge="1" parent="1" source="record" target="register" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;dashed=1;dashPattern=1 3;endArrow=open;endFill=0;exitX=0;exitY=0.5;entryX=1;entryY=0.5;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="register-report" edge="1" parent="1" source="register" target="report" style="noEdgeStyle=1;rounded=0;html=1;strokeColor=#253745;strokeWidth=2.3;dashed=1;dashPattern=1 3;endArrow=open;endFill=0;exitX=0.5;exitY=0;entryX=0.5;entryY=1;exitPerimeter=1;entryPerimeter=1;fontSize=24;labelBackgroundColor=#ffffff;fontFamily=Liberation Serif;fontColor=#18212a;">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="778" y="1061" />
-              <mxPoint x="270" y="1061" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="report-read" value="" edge="1" parent="1" source="report" target="read" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#26384a;strokeWidth=2;fontSize=20;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="778" y="1147" />
-              <mxPoint x="270" y="1147" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="record-register" edge="1" parent="1" source="record" target="register" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;dashed=1;dashPattern=1 3;strokeColor=#4d5f73;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="register-report" edge="1" parent="1" source="register" target="report" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;dashed=1;dashPattern=1 3;strokeColor=#4d5f73;strokeWidth=2;exitX=0.5;exitY=1;entryX=1;entryY=0.5;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="978" y="1105" />
-            </Array>
-          </mxGeometry>
+            </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
